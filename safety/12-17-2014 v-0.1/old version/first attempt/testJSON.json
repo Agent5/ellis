@@ -1,0 +1,2272 @@
+{
+  "version": "1.0",
+  "encoding": "UTF-8",
+  "feed": {
+    "xmlns": "http://www.w3.org/2005/Atom",
+    "xmlns$openSearch": "http://a9.com/-/spec/opensearchrss/1.0/",
+    "xmlns$blogger": "http://schemas.google.com/blogger/2008",
+    "xmlns$georss": "http://www.georss.org/georss",
+    "xmlns$gd": "http://schemas.google.com/g/2005",
+    "xmlns$thr": "http://purl.org/syndication/thread/1.0",
+    "id": {
+      "$t": "tag:blogger.com,1999:blog-2471378914199150966"
+    },
+    "updated": {
+      "$t": "2014-12-04T10:03:08.019-08:00"
+    },
+    "category": [
+      {
+        "term": "chrome web store"
+      },
+      {
+        "term": "extensions"
+      },
+      {
+        "term": "security"
+      },
+      {
+        "term": "googlechrome"
+      },
+      {
+        "term": "devtools"
+      },
+      {
+        "term": "html5"
+      },
+      {
+        "term": "dart"
+      },
+      {
+        "term": "native client"
+      },
+      {
+        "term": "webgl"
+      },
+      {
+        "term": "New Features"
+      },
+      {
+        "term": "v8"
+      },
+      {
+        "term": "webkit"
+      },
+      {
+        "term": "webp"
+      },
+      {
+        "term": "websockets"
+      },
+      {
+        "term": "webrtc"
+      },
+      {
+        "term": "chrome apps"
+      },
+      {
+        "term": "chromeframe"
+      },
+      {
+        "term": "chromeos"
+      },
+      {
+        "term": "chromium"
+      },
+      {
+        "term": "javascript"
+      },
+      {
+        "term": "webaudio"
+      },
+      {
+        "term": "linux"
+      },
+      {
+        "term": "mobile"
+      },
+      {
+        "term": "open web"
+      },
+      {
+        "term": "releases"
+      },
+      {
+        "term": "spdy"
+      },
+      {
+        "term": "ssl"
+      },
+      {
+        "term": "Chrome Frame"
+      },
+      {
+        "term": "accessibility"
+      },
+      {
+        "term": "benchmarks"
+      },
+      {
+        "term": "beta"
+      },
+      {
+        "term": "blink"
+      },
+      {
+        "term": "cloud print"
+      },
+      {
+        "term": "gdd"
+      },
+      {
+        "term": "incognito"
+      },
+      {
+        "term": "mac"
+      },
+      {
+        "term": "na"
+      },
+      {
+        "term": "octane"
+      },
+      {
+        "term": "rlz"
+      },
+      {
+        "term": "web intents"
+      },
+      {
+        "term": "webtiming"
+      }
+    ],
+    "title": {
+      "type": "text",
+      "$t": "SFDC Leads"
+    },
+    "subtitle": {
+      "type": "html",
+      "$t": ""
+    },
+    "link": [
+      {
+        "rel": "http://schemas.google.com/g/2005#feed",
+        "type": "application/atom+xml",
+        "href": "http://blog.chromium.org/feeds/posts/default"
+      },
+      {
+        "rel": "self",
+        "type": "application/atom+xml",
+        "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default?alt=json"
+      },
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "http://blog.chromium.org/"
+      },
+      {
+        "rel": "hub",
+        "href": "http://pubsubhubbub.appspot.com/"
+      },
+      {
+        "rel": "next",
+        "type": "application/atom+xml",
+        "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default?alt=json&start-index=26&max-results=25"
+      }
+    ],
+    "author": [
+      {
+        "name": {
+          "$t": "Emily Wood"
+        },
+        "email": {
+          "$t": "noreply@blogger.com"
+        },
+        "gd$image": {
+          "rel": "http://schemas.google.com/g/2005#thumbnail",
+          "width": "16",
+          "height": "16",
+          "src": "http://img2.blogblog.com/img/b16-rounded.gif"
+        }
+      }
+    ],
+    "generator": {
+      "version": "7.00",
+      "uri": "http://www.blogger.com",
+      "$t": "Blogger"
+    },
+    "openSearch$totalResults": {
+      "$t": "352"
+    },
+    "openSearch$startIndex": {
+      "$t": "1"
+    },
+    "openSearch$itemsPerPage": {
+      "$t": "25"
+    },
+    "entry": [
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-2471378914199150966.post-8029059063684352705"
+        },
+        "published": {
+          "$t": "2014-12-07T10:27:00.000-08:00"
+        },
+        "updated": {
+          "$t": "2014-12-07T10:57:08.041-08:00"
+        },
+        "title": {
+          "type": "text",
+          "$t": "ShmEddie's test of some stuff: Powerful Offline and Lightspeed Loading with Service Workers"
+        },
+        "content": {
+          "type": "html",
+          "$t": "The newest Chrome <a href=\"https://www.google.com/landing/chrome/beta/\">Beta</a> channel release includes several new developer features to help you make richer, more compelling web content and apps, especially for mobile devices. Unless otherwise noted, changes described below apply to Chrome for Android, Windows, Mac, Linux, and Chrome OS.<br /><br /><b>Service Workers</b><br /><br /><span style=\"font-weight: normal;\">This release adds <a href=\"http://www.w3.org/TR/service-workers/\">service workers</a>, a powerful new API that allows developers to make sites work offline by intercepting network requests to deliver programmatic or cached responses. Besides enabling a rich offline experience, developers can also use the API to achieve dramatic performance improvements by caching UI and other common resources between page loads.</span><br /><span style=\"font-weight: normal;\"><br /></span><br /><div style=\"text-align: center;\"><iframe allowfullscreen=\"\" frameborder=\"0\" height=\"281\" src=\"https://www.youtube.com/embed/px-J9Ghvcx4?rel=0\" width=\"500\"></iframe></div><br /><div style=\"text-align: center;\"><i>A before and after comparison of a repeat visitor loading a site that uses Service Workers.</i></div><b><br /></b>Unlike other web technologies, the lifetime of a service worker is independent of the page that installed it. This lays the foundation for a new class of web applications with rich background capabilities. For example, future APIs like&nbsp;<a href=\"https://w3c.github.io/push-api/index.html\">Push</a>&nbsp;and&nbsp;<a href=\"https://github.com/slightlyoff/BackgroundSync/blob/master/explainer.md\">Background Sync</a>&nbsp;could do their work even after the page is closed, provided the user has given permission.<br /><br />This release includes two new APIs for use only within service workers. The&nbsp;<a href=\"https://fetch.spec.whatwg.org/\">Fetch API</a>&nbsp;allows service workers to make network requests—including cross-origin—and return the responses to pages they control. The&nbsp;<a href=\"https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html#cache-objects\">Cache API</a>&nbsp;can save fetched responses and then return them directly the next time the same resource is requested, bypassing the latency-prone network and the eviction-prone HTTP cache.<br /><br />These APIs are still under active development and we are committed to keeping our implementation in sync with the specifications as they evolve. This release supports a subset of the Cache API, but developers can use a&nbsp;<a href=\"https://github.com/coonsta/cache-polyfill/blob/master/dist/serviceworker-cache-polyfill.js\">polyfill</a>&nbsp;for full compatibility. If you’re interested in more in-depth information, check out&nbsp;<a href=\"http://www.html5rocks.com/en/tutorials/service-worker/introduction/\">HTML5 Rocks</a>&nbsp;or our&nbsp;<a href=\"https://github.com/GoogleChrome/samples/tree/gh-pages/service-worker\">collection</a>&nbsp;of useful service worker “recipes.”<br /><b><br /></b><b>Other updates in this release</b><br /><ul><li>    This release brings support for <a href=\"https://w3c.github.io/webappsec/specs/content-security-policy/#changes-from-level-1\">the new directives</a> introduced in Content Security Policy (CSP) Level 2.</li></ul><ul><li>    The new <a href=\"https://github.com/GoogleChrome/samples/tree/gh-pages/report-validity\">reportValidity</a> method causes Chrome to draw the user’s attention to form fields with <a href=\"https://developers.google.com/web/fundamentals/input/form/provide-real-time-validation\">validation</a> errors, saving developers from needing to implement this feature manually in JavaScript. </li></ul><ul><li>    Chrome now supports the <a href=\"http://www.w3.org/TR/html5/forms.html#attr-fe-minlength\">minlength attribute</a>, a <a href=\"https://developers.google.com/web/fundamentals/input/form/provide-real-time-validation\">validation</a> feature that allows developers to declare a lower bound on the number of characters a user can input.</li></ul><ul><li>    The new <a href=\"https://dom.spec.whatwg.org/#dom-element-closest\">element.closest()</a> method allows the developer to retrieve the closest ancestor of the given element that matches the provided selector, similar to <a href=\"http://api.jquery.com/closest/\">jQuery’s closest()</a> function.</li></ul><ul><li>    Thanks to a collaboration with <a href=\"https://01.org/chromium/blogs/drott/2014/intel-otc-hosted-google-engineers-coding-camp-non-latin-text-improvements-blink\">Intel's Open Source Technology Center</a>, Chrome on Mac now uses <a href=\"http://www.harfbuzz.org/\">HarfBuzz</a> for text shaping which improves performance and rendering of non-Latin text, brings new optimizations, and unifies the font system across all platforms.</li></ul><ul><li>    Developers can use the <a href=\"http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android\">theme-color meta tag</a> to customize their toolbar color in the <a href=\"http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android\">app switcher</a> on Android Lollipop.</li></ul>As always, visit <a href=\"https://www.chromestatus.com/features\">chromestatus.com/features</a> for a complete overview of Chrome’s developer features, and circle <a href=\"https://plus.google.com/+GoogleChromeDevelopers\">+Google Chrome Developers</a> for more frequent updates.<br /><br />Posted by Dominic Cooney and Joshua Bell, Software Engineers at your service"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "http://blog.chromium.org/feeds/8029059063684352705/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "http://www.blogger.com/comment.g?blogID=2471378914199150966&postID=8029059063684352705",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/8029059063684352705"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/8029059063684352705"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "http://blog.chromium.org/2014/12/chrome-40-beta-powerful-offline-and.html",
+            "title": "Eddie's test of some stuff: Powerful Offline and Lightspeed Loading with Service Workers"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Mktg. Queue"
+            },
+            "uri": {
+              "$t": "http://www.blogger.com/profile/06394244468194711527"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "http://img2.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "media$thumbnail": {
+          "xmlns$media": "http://search.yahoo.com/mrss/",
+          "url": "http://img.youtube.com/vi/px-J9Ghvcx4/default.jpg",
+          "height": "72",
+          "width": "72"
+        },
+        "thr$total": {
+          "$t": "0"
+        },
+        "gd$extendedProperty": [
+          {
+            "name": "commentSource",
+            "value": "1"
+          },
+          {
+            "name": "commentModerationMode",
+            "value": "FILTERED_POSTMOD"
+          }
+        ]
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-2471378914199150966.post-1664608431460134615"
+        },
+        "published": {
+          "$t": "2014-11-24T09:22:00.000-08:00"
+        },
+        "updated": {
+          "$t": "2014-11-24T09:22:16.119-08:00"
+        },
+        "title": {
+          "type": "text",
+          "$t": "The Final Countdown for NPAPI"
+        },
+        "content": {
+          "type": "html",
+          "$t": "Last September we <a href=\"http://blog.chromium.org/2013/09/saying-goodbye-to-our-old-friend-npapi.html\">announced</a> our plan to remove NPAPI support from Chrome, a change that will improve Chrome’s security, speed, and stability as well as reduce complexity in the code base. Since our <a href=\"http://blog.chromium.org/2014/05/update-on-npapi-deprecation.html\">last update</a>, NPAPI usage has continued its decline. Given this usage data, we will continue with our deprecation plan.<br /><br /><b>Monthly Plug-in Launch Percentage</b><br /><br /><center><table border=\"0\">    <colgroup>      <col width=\"125\"></col>      <col width=\"106\"></col>      <col width=\"76\"></col>      <col width=\"90\"></col>    </colgroup>    <tbody><tr>      <td><br /></td>      <td><i>Sept 13</i></td>      <td><i>May 14</i></td>      <td><i>Oct 14</i></td>    </tr><tr>      <td>Silverlight</td>      <td>15%</td>      <td>13.3%</td>      <td>11%</td>    </tr><tr>      <td>Google Talk</td>      <td>8.7%</td>      <td>8.7%</td>      <td>7%</td>    </tr><tr>      <td>Java</td>      <td>8.9%</td>      <td>7.2%</td>      <td>3.7%</td>    </tr><tr>      <td>Facebook </td>      <td>6%</td>      <td>4.2%</td>      <td>3.0%</td>    </tr><tr>      <td>Unity</td>      <td>9.1%</td>      <td>3.1%</td>      <td>1.9%</td>    </tr><tr>      <td>Google Earth</td>      <td>9.1%</td>      <td>0.1%</td>      <td>0.1%</td>    </tr></tbody></table></center><br />Currently Chrome supports NPAPI plugins, but they are blocked by default unless the user chooses to allow them for specific sites (via the <a href=\"https://sites.google.com/a/chromium.org/dev/developers/npapi-deprecation?pli=1\">page action UI</a>). A small number of the most popular plugins are whitelisted and allowed by default. In January 2015 we will remove the whitelist, meaning all plugins will be blocked by default.<br /><br />In April 2015 NPAPI support will be disabled by default in Chrome and we will unpublish extensions requiring NPAPI plugins from the Chrome Web Store. Although plugin vendors are working hard to move to alternate technologies, a small number of users still rely on plugins that haven’t completed the transition yet. We will provide an override for advanced users (via chrome://flags/#enable-npapi) and enterprises (via Enterprise Policy) to <b>temporarily</b> re-enable NPAPI while they wait for mission-critical plugins to make the transition.<br /><br />In September 2015 we will remove the override and NPAPI support will be permanently removed from Chrome. Installed extensions that require NPAPI plugins will no longer be able to load those plugins.<br /><br />For more details on the timeline, including guidance for NPAPI plugin developers, see the <a href=\"http://www.chromium.org/developers/npapi-deprecation\">NPAPI deprecation guide</a>. With each step in this transition, we get closer to a safer, more mobile-friendly web.<br /><br />Posted by Justin Schuh, Software Engineer and Plug-in Retirement Planner<br /><div><br /></div>"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "http://blog.chromium.org/feeds/1664608431460134615/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "http://www.blogger.com/comment.g?blogID=2471378914199150966&postID=1664608431460134615",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/1664608431460134615"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/1664608431460134615"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "http://blog.chromium.org/2014/11/the-final-countdown-for-npapi.html",
+            "title": "The Final Countdown for NPAPI"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Google Chrome Blog"
+            },
+            "uri": {
+              "$t": "http://www.blogger.com/profile/06394244468194711527"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "http://img2.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "thr$total": {
+          "$t": "0"
+        },
+        "gd$extendedProperty": [
+          {
+            "name": "commentSource",
+            "value": "1"
+          },
+          {
+            "name": "commentModerationMode",
+            "value": "FILTERED_POSTMOD"
+          }
+        ]
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-2471378914199150966.post-6000637140562557395"
+        },
+        "published": {
+          "$t": "2014-10-30T09:00:00.000-07:00"
+        },
+        "updated": {
+          "$t": "2014-10-30T09:11:12.481-07:00"
+        },
+        "title": {
+          "type": "text",
+          "$t": "Learning Statistics with Privacy, aided by the Flip of a Coin"
+        },
+        "content": {
+          "type": "html",
+          "$t": "<i>[Cross-posted on the <a href=\"http://googleresearch.blogspot.com/\">Google Research Blog</a> and the <a href=\"http://googleonlinesecurity.blogspot.com/2014/10/learning-statistics-with-privacy-aided.html\">Google Online Security Blog</a>]</i><br /><br />At Google, we are constantly trying to improve the techniques we use to <a href=\"https://www.google.com/policies/technologies/\">protect our users' security and privacy</a>. One such project, RAPPOR (Randomized Aggregatable Privacy-Preserving Ordinal Response), provides a new state-of-the-art, privacy-preserving way to learn software statistics that we can use to better safeguard our users’ security, find bugs, and improve the overall user experience.<br /><br />Building on the concept of <a href=\"http://en.wikipedia.org/wiki/Randomized_response\">randomized response</a>, RAPPOR enables learning statistics about the behavior of users’ software while guaranteeing client privacy. The guarantees of <a href=\"http://en.wikipedia.org/wiki/Differential_privacy\">differential privacy</a>, which are widely accepted as being the <a href=\"http://arxiv.org/abs/1402.3329\">strongest form of privacy</a>, have almost never been used in practice despite <a href=\"https://www.youtube.com/watch?v=Gx13lgEudtU\">intense research in academia</a>. &nbsp;RAPPOR introduces a practical method to achieve those guarantees.<br /><br />To understand RAPPOR, consider the following example. Let’s say you wanted to count how many of your online friends were dogs, while respecting the maxim that, <a href=\"http://en.wikipedia.org/wiki/On_the_Internet,_nobody_knows_you%27re_a_dog\">on the Internet, nobody should know you’re a dog</a>. To do this, you could ask each friend to answer the question “Are you a dog?” in the following way. Each friend should flip a coin in secret, and answer the question truthfully if the coin came up heads; but, if the coin came up tails, that friend should always say “Yes” regardless. Then you could get a good estimate of the true count from the greater-than-half fraction of your friends that answered “Yes”. However, you still wouldn’t know which of your friends was a dog: each answer “Yes” would most likely be due to that friend’s coin flip coming up tails.<br /><br />RAPPOR builds on the above concept, allowing software to send reports that are effectively indistinguishable from the results of random coin flips and are free of any unique identifiers. However, by aggregating the reports we can learn the common statistics that are shared by many users. We’re currently testing the use of RAPPOR in Chrome, to learn statistics about how <a href=\"http://www.google.com/about/company/unwanted-software-policy.html\">unwanted software</a> is <a href=\"http://chrome.blogspot.com/2013/10/dont-mess-with-my-browser.html\">hijacking</a> users’ settings.<br /><br />We believe that RAPPOR has the potential to be applied for a number of different purposes, so we're making it freely available for all to use. We'll continue development of RAPPOR as a standalone <a href=\"https://github.com/google/rappor\">open-source project</a> so that anybody can inspect and test its reporting and analysis mechanisms, and help develop the technology. We’ve written up the technical details of RAPPOR in a <a href=\"http://arxiv.org/abs/1407.6981\">report</a> that will be published next week at the <a href=\"http://www.sigsac.org/ccs/CCS2014/\">ACM Conference on Computer and Communications Security</a>.<br /><br />We’re encouraged by the <a href=\"https://cdt.org/blog/having-your-big-data-cake-and-eating-it-too/\">feedback</a> we’ve received so far from academics and other stakeholders, and we’re looking forward to additional comments from the community. We hope that everybody interested in preserving user privacy will review the technology and share their feedback at <a href=\"https://groups.google.com/forum/#!forum/rappor-discuss\">rappor-discuss@googlegroups.com</a>.<br /><br />Posted by Úlfar Erlingsson, Tech Lead Manager, Security Research<br /><div><br /></div><div><br /></div>"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "http://blog.chromium.org/feeds/6000637140562557395/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "http://www.blogger.com/comment.g?blogID=2471378914199150966&postID=6000637140562557395",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/6000637140562557395"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/6000637140562557395"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "http://blog.chromium.org/2014/10/learning-statistics-with-privacy-aided.html",
+            "title": "Learning Statistics with Privacy, aided by the Flip of a Coin"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Google Chrome Blog"
+            },
+            "uri": {
+              "$t": "http://www.blogger.com/profile/06394244468194711527"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "http://img2.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "thr$total": {
+          "$t": "0"
+        },
+        "gd$extendedProperty": [
+          {
+            "name": "commentSource",
+            "value": "1"
+          },
+          {
+            "name": "commentModerationMode",
+            "value": "FILTERED_POSTMOD"
+          }
+        ]
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-2471378914199150966.post-2020862835264274310"
+        },
+        "published": {
+          "$t": "2014-10-14T09:37:00.000-07:00"
+        },
+        "updated": {
+          "$t": "2014-10-15T07:50:12.076-07:00"
+        },
+        "title": {
+          "type": "text",
+          "$t": "Noto on ChromeOS: No More “Tofu”"
+        },
+        "content": {
+          "type": "html",
+          "$t": "Every so often when reading a page written in a different language—especially Chinese, Korean, or Japanese (CJK) pages—you might see little boxes where letters should be, something that we call “tofu”. What's happened is that some of the characters are not supported by your computer. In July <a href=\"http://www.google.com/url?q=http%3A%2F%2Fgoogledevelopers.blogspot.com%2F2014%2F07%2Fnoto-cjk-font-that-is-complete.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNHIJwsoQZmSOxrJoEVtEGGd3l3iJA\">Google released Noto Sans CJK</a>, the newest font in a family designed to cover 200+ languages in a harmonious way. As of Chrome OS 38, Noto is now the default sans serif and UI font for CJK languages.<br /><br /><div style=\"text-align: center;\"><a href=\"http://1.bp.blogspot.com/-3WX5WM3vcxE/VDwh_lxsAOI/AAAAAAAAAYo/vVk12i7ppBc/s1600/tofu.png\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" src=\"http://1.bp.blogspot.com/-3WX5WM3vcxE/VDwh_lxsAOI/AAAAAAAAAYo/vVk12i7ppBc/s1600/tofu.png\" height=\"25\" width=\"400\" /></a></div><br />Noto supports major living languages such as English, Russian, Greek, Arabic, and Hebrew, as well as widely supported languages such as Cherokee and Sinhala, and even ancient languages like Egyptian hieroglyphics and Imperial Aramaic. The ultimate goal is for Noto to support every character for every language in the world—which will make tofu a thing of the past.<br /><br />Noto has many advanced features:<br /><ul><li><b>Pan-CJK: </b>Simplified and Traditional Chinese, Japanese, and Korean, all in a single font.</li><li><b>Seven weights: </b>Thin, Light, DemiLight, Regular, Medium, Bold, Black. ChromeOS has default support for Regular and Bold, with more coming soon.</li><li><b>Free and open source: </b>Freely available for everyone under the <a href=\"http://www.google.com/url?q=http%3A%2F%2Fwww.apache.org%2Flicenses%2FLICENSE-2.0.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNHpksB5gXq52YoWpCRd2CNEURXmJA\">Apache License, v2.0</a>.</li><li><b>Comprehensive character coverage: </b>Covers all the CJK Ideographs in the Unicode Basic Multilingual Plane and a few hundred Ideographs in Unicode Plane 2. Also covered are over twelve thousand Korean Hangul characters with full support for Old Hangul. The total number of glyphs in each font instance is exactly 65,536, the maximum number of glyphs allowed by the OpenType font specification.&nbsp;</li><li><b>Region-appropriate glyph forms:</b> CJK-shared ideographic characters follow region writing conventions to look appropriate to Chinese, Japanese, and Korean users.&nbsp;</li><li><b>Harmony:</b> Noto Sans CJK and all other members of the Noto family are visually compatible with Noto Sans for English, so that text mixing English with another language looks harmonious.</li></ul><br /><div style=\"text-align: center;\"><a href=\"http://4.bp.blogspot.com/-AiTMYc5AMso/VDwia1WLGAI/AAAAAAAAAYw/CzBsrtpXhAk/s1600/cjk.png\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" src=\"http://4.bp.blogspot.com/-AiTMYc5AMso/VDwia1WLGAI/AAAAAAAAAYw/CzBsrtpXhAk/s1600/cjk.png\" height=\"400\" width=\"373\" /></a></div><br />In ChromeOS, Noto is now the default “sans serif” font. Developers that want to use Noto on platforms other than ChromeOS can load them as web fonts from <a href=\"http://www.google.com/fonts/earlyaccess\">Google Fonts: Early Access</a>.<br /><br />Although Noto's Latin, Greek, and Cryllic (LGC) characters are designed to harmonize with the CJK characters, developers might still want to use more familiar fonts for the LGC text. To support that, Noto is available in different subsets including Japanese, Korean, Simplified Chinese, Traditional Chinese, and all of CJK. Developers can then use CSS's font fallback mechanism to specify a LGC font ahead of a Noto Sans subset.<br /><br />For example, if you're targeting devices that don't have Noto installed, want to use Arial for LGC characters, and want to use Noto for Japanese characters, you can include the following in your stylesheet:<br /><blockquote><span style=\"font-family: Courier New, Courier, monospace;\">@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);</span>&nbsp;</blockquote><blockquote>&nbsp;<span style=\"font-family: 'Courier New', Courier, monospace;\">body {</span></blockquote><blockquote><blockquote><span style=\"font-family: Courier New, Courier, monospace;\">font-family: Arial, 'Noto Sans Japanese', sans-serif;</span></blockquote><span style=\"font-family: Courier New, Courier, monospace;\">}</span></blockquote>Shipping Noto by default on ChromeOS is one step towards making “tofu” a thing of the past. You can learn more at the <a href=\"http://www.google.com/get/noto/#/\">Noto homepage</a>.<br /><br />Jungshik Shin, Font Harmony Master<br /><div><br /></div>"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "http://blog.chromium.org/feeds/2020862835264274310/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "http://www.blogger.com/comment.g?blogID=2471378914199150966&postID=2020862835264274310",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/2020862835264274310"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/2020862835264274310"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "http://blog.chromium.org/2014/10/noto-on-chromeos-no-more-tofu.html",
+            "title": "Noto on ChromeOS: No More “Tofu”"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Google Chrome Blog"
+            },
+            "uri": {
+              "$t": "http://www.blogger.com/profile/06394244468194711527"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "http://img2.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "media$thumbnail": {
+          "xmlns$media": "http://search.yahoo.com/mrss/",
+          "url": "http://1.bp.blogspot.com/-3WX5WM3vcxE/VDwh_lxsAOI/AAAAAAAAAYo/vVk12i7ppBc/s72-c/tofu.png",
+          "height": "72",
+          "width": "72"
+        },
+        "thr$total": {
+          "$t": "0"
+        },
+        "gd$extendedProperty": [
+          {
+            "name": "commentSource",
+            "value": "1"
+          },
+          {
+            "name": "commentModerationMode",
+            "value": "FILTERED_POSTMOD"
+          }
+        ]
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-2471378914199150966.post-4034797254387152027"
+        },
+        "published": {
+          "$t": "2014-10-09T10:00:00.000-07:00"
+        },
+        "updated": {
+          "$t": "2014-10-09T10:00:12.574-07:00"
+        },
+        "title": {
+          "type": "text",
+          "$t": "Chrome 39 Beta: JS Generators, Animation Playback Control, and the WebApp Manifest"
+        },
+        "content": {
+          "type": "html",
+          "$t": "Today’s Chrome <a href=\"https://www.google.com/landing/chrome/beta/\">Beta</a> channel release includes new tools to make web application development simpler and more powerful. Unless otherwise noted, changes described below apply to Chrome for Android, Windows, Mac, Linux, and Chrome OS.<br /><br /><b>JavaScript Generators</b><br /><br />Writing asynchronous code in JavaScript can be <a href=\"http://jakearchibald.com/2014/es7-async-functions/\">less than straightforward</a>. It often involves several nested functions and non-linear program execution, making it hard to develop, maintain and debug. This is such a common pain point for developers that they've given it a name: callback soup.<br /><br />Starting today, Chrome Beta supports ES6 Generators. They allow developers to create iterators that pause their execution after yielding a value, and resume again when later invoked. This greatly simplifies the process of developing asynchronous code and reduces dependence on callback functions.<br /><br />For additional information about Generators, <a href=\"http://updates.html5rocks.com/2014/10/Generators-the-Gnarly-Bits\">read more about them</a> or <a href=\"https://github.com/GoogleChrome/samples/tree/gh-pages/generators\">see them in action</a>.<br /><br /><b>Web Animation Playback Control</b><br /><br /><a href=\"http://updates.html5rocks.com/2014/05/Web-Animations---element-animate-is-now-in-Chrome-36\">Web Animations</a> is a powerful new API that unifies all of the animation APIs on the web. We shipped basic support in May with Chrome 36. In this release we've added playback control, with methods such as <span style=\"font-family: Courier New, Courier, monospace;\">play()</span>, <span style=\"font-family: Courier New, Courier, monospace;\">pause()</span>, &nbsp;and <span style=\"font-family: Courier New, Courier, monospace;\">reverse()</span>, and the ability to jump to a specific point in an animation's timeline. With our initial support, developers could create animations but not precisely control their playback. This next iteration enables <a href=\"http://web-animations.github.io/web-animations-demos/#playback-control\">animations that can react in real time to user input</a>&nbsp;- as well as a variety of other creative uses.<br /><br /><b>Web Application Manifest</b><br /><br />Previously when developers wanted to allow their web applications to be added to the home screen from Chrome for Android, they had to use a variety of <span style=\"font-family: Courier New, Courier, monospace;\">&lt;meta&gt;</span> and <span style=\"font-family: Courier New, Courier, monospace;\">&lt;link&gt;</span> tags to trigger this behavior and deliver relevant resources such as icons. Having this embedded in every page was not only repetitive, but was a waste of bandwidth and put <a href=\"https://www.youtube.com/watch?v=YV1nKLWoARQ\">extra bits on the critical path</a>.<br /><br />Starting in Chrome 39, <a href=\"http://w3c.github.io/manifest/\">Manifests</a> provide a way to wrap metadata about a web application into a single file, reducing duplication. Developers seeking to enable \"<a href=\"https://developer.chrome.com/multidevice/android/installtohomescreen\">add to homescreen</a>\" can define a title, landing page, default orientation, and different icons depending on size and screen density. You can <a href=\"https://github.com/GoogleChrome/samples/tree/gh-pages/web-application-manifest\">see how it works today</a>, but stay tuned for more properties to be added in later releases.<br /><br /><b>Other updates in this release</b><br /><ul><li>The <a href=\"http://updates.html5rocks.com/2014/10/Send-beacon-data-in-Chrome-39\">Beacon API</a> enables developers to queue asynchronous network requests that will be sent, regardless of whether the user navigates to a new page</li><li>Scroll offsets (<span style=\"font-family: Courier New, Courier, monospace;\">scrollTop</span>, <span style=\"font-family: Courier New, Courier, monospace;\">scrollLeft</span>) now return high-precision fractional values in preparation for high-DPI support</li><li>XMLHttpRequest progress event properties <span style=\"font-family: Courier New, Courier, monospace;\">position</span> and <span style=\"font-family: Courier New, Courier, monospace;\">totalSize</span> are now deprecated in favor of the <span style=\"font-family: Courier New, Courier, monospace;\">loaded</span> and <span style=\"font-family: Courier New, Courier, monospace;\">total</span> properties</li></ul>As always, visit <a href=\"http://chromestatus.com/features\">chromestatus.com/features</a> for a complete overview of Chrome’s developer features, and circle <a href=\"https://plus.google.com/+GoogleChromeDevelopers\">+Google Chrome Developers</a> for more frequent updates.<br /><br />Posted by Mounir Lamouri, the Manifestation of a Software Engineer"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "http://blog.chromium.org/feeds/4034797254387152027/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "http://www.blogger.com/comment.g?blogID=2471378914199150966&postID=4034797254387152027",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/4034797254387152027"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/4034797254387152027"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "http://blog.chromium.org/2014/10/chrome-39-beta-js-generators-animation.html",
+            "title": "Chrome 39 Beta: JS Generators, Animation Playback Control, and the WebApp Manifest"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Google Chrome Blog"
+            },
+            "uri": {
+              "$t": "http://www.blogger.com/profile/06394244468194711527"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "http://img2.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "thr$total": {
+          "$t": "0"
+        },
+        "gd$extendedProperty": [
+          {
+            "name": "commentSource",
+            "value": "1"
+          },
+          {
+            "name": "commentModerationMode",
+            "value": "FILTERED_POSTMOD"
+          }
+        ]
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-2471378914199150966.post-8856012203310564434"
+        },
+        "published": {
+          "$t": "2014-09-30T10:30:00.000-07:00"
+        },
+        "updated": {
+          "$t": "2014-09-30T12:09:49.105-07:00"
+        },
+        "title": {
+          "type": "text",
+          "$t": "Fewer bugs, mo’ money"
+        },
+        "content": {
+          "type": "html",
+          "$t": "<i>[Cross-posted on the <a href=\"http://googleonlinesecurity.blogspot.com/2014/09/fewer-bugs-mo-money.html\">Google Online Security Blog</a>]</i><br /><br />We work hard to keep you safe online. In Chrome, for instance, we warn users against malware and phishing and offer rewards for finding security bugs. Due in part to our collaboration with the research community, we’ve squashed more than 700 Chrome security bugs and have rewarded more than $1.25 million through our <a href=\"https://www.google.com/about/appsecurity/chrome-rewards/index.html\">bug reward program</a>. But as Chrome has become more <a href=\"https://www.google.com/chrome/browser/features.html#security\">secure</a>, it’s gotten even harder to find and exploit security bugs.<br /><br />This is a good problem to have! In recognition of the extra effort it takes to uncover vulnerabilities in Chrome, we’re increasing our reward levels. We’re also making some changes to be more transparent with researchers reporting a bug.<br /><br />First, we’re increasing our usual reward pricing range to $500-$15,000 per bug, up from a previous published maximum of $5,000. This is accompanied with <a href=\"https://www.google.com/about/appsecurity/chrome-rewards/index.html#rewards\">a clear breakdown of likely reward amounts</a> by bug type. As always, we reserve the right to reward above these levels for particularly great reports. (For example, <a href=\"http://googlechromereleases.blogspot.com/2014/09/stable-channel-update-for-chrome-os.html\">last month</a> we awarded $30,000 for a very impressive report.)<br /><br />Second, we’ll pay at the higher end of the range when researchers can provide an exploit to demonstrate a specific attack path against our users. Researchers now have an option to submit the vulnerability first and follow up with an exploit later. We believe that this a win-win situation for security and researchers: we get to patch bugs earlier and our contributors get to lay claim to the bugs sooner, lowering the chances of submitting a duplicate report.<br /><br />Third, Chrome reward recipients will be listed in the <a href=\"https://www.google.com/about/appsecurity/hall-of-fame/reward/\">Google Hall of Fame</a>, so you’ve got something to print out and hang on the fridge.<br /><br />As a special treat, we’re going to back-pay valid submissions from July 1, 2014 at the increased reward levels we’re announcing today. Good times.<br /><br />We’ve also <a href=\"https://www.google.com/about/appsecurity/chrome-rewards/index.html#faq\">answered some new FAQs</a> on our rules page, including questions about our new Trusted Researcher program and a bit about our philosophy and alternative markets for zero-day bugs.<br /><br />Happy bug hunting!<br /><br />Posted by Tim Willis, Hacker Philanthropist, Chrome Security Team"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "http://blog.chromium.org/feeds/8856012203310564434/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "http://www.blogger.com/comment.g?blogID=2471378914199150966&postID=8856012203310564434",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/8856012203310564434"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/8856012203310564434"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "http://blog.chromium.org/2014/09/fewer-bugs-mo-money.html",
+            "title": "Fewer bugs, mo’ money"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Google Chrome Blog"
+            },
+            "uri": {
+              "$t": "http://www.blogger.com/profile/06394244468194711527"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "http://img2.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "thr$total": {
+          "$t": "0"
+        },
+        "gd$extendedProperty": [
+          {
+            "name": "commentSource",
+            "value": "1"
+          },
+          {
+            "name": "commentModerationMode",
+            "value": "FILTERED_POSTMOD"
+          }
+        ]
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-2471378914199150966.post-7075920004393245476"
+        },
+        "published": {
+          "$t": "2014-09-22T10:07:00.000-07:00"
+        },
+        "updated": {
+          "$t": "2014-09-22T11:11:32.237-07:00"
+        },
+        "title": {
+          "type": "text",
+          "$t": "Chrome Apps for Mobile: Now with a faster dev workflow and a modern WebView"
+        },
+        "content": {
+          "type": "html",
+          "$t": "In January, we <a href=\"http://blog.chromium.org/2014/01/run-chrome-apps-on-mobile-using-apache.html\">told you</a> about Chrome Apps for Mobile, a project based on Apache Cordova to run your <a href=\"https://developer.chrome.com/apps/about_apps\">Chrome Apps</a> on both Android and iOS. The project provides a native application wrapper around your Chrome App, allowing you to distribute it via the Google Play Store and the Apple App Store. Cordova plugins give your App access to a wide range of APIs, including many of the core Chrome APIs. The newest version of Chrome Apps for Mobile includes Chrome APIs for <a href=\"https://developer.chrome.com/apps/identity\">identity</a>, Google Cloud Messaging (<a href=\"https://developer.chrome.com/apps/gcm\">GCM</a>) and <a href=\"https://developer.chrome.com/apps/notifications\">rich notifications</a>, as well as an improved developer workflow and modern WebView capabilities extended to older versions of Android.<br /><br />The developer workflow for Chrome Apps for Mobile is now significantly faster and simpler with the new live deploy feature. With live deploy, you can instantly preview the Chrome App you’re editing, running right on your Android or iOS device. When you make a change to the code, you will be able to see it straight away. Live deploy is available in both <a href=\"https://github.com/dart-lang/chromedeveditor\">Chrome Dev Editor</a> (CDE) and the <a href=\"https://github.com/MobileChromeApps/mobile-chrome-apps/blob/master/README.md#the-cca-command-line-tool\">Chrome Apps for Mobile command line tool</a>.<br /><br />Chrome Apps are at their best when they leverage the powerful functionality and performance of the latest Chromium WebView. The introduction of an updated WebView into Android KitKat paved the way for advanced features such as WebRTC, WebAudio and Accelerated 2D Canvas, and we will continue to see improvements with each new Android release. However, now you have a way to leverage the latest Chromium WebView on any device running Android versions back to Ice Cream Sandwich by bundling your Chrome App with an embeddable Chromium WebView, provided by the <a href=\"https://crosswalk-project.org/\">Crosswalk</a> open source project.<br /><br />To show Crosswalk in action, we have taken the <a href=\"http://www.polymer-project.org/apps/topeka/\">Topeka Polymer Web App</a> released at I/O and packaged it as a Chrome App for Mobile, available for you to <a href=\"https://play.google.com/store/apps/details?id=com.chromecordova.Topeka\">try out on Android</a>.<br /><div style=\"text-align: center;\"><span id=\"docs-internal-guid-0488281d-9e0a-3733-45c3-c976b72329d2\"><span style=\"font-family: Roboto; font-size: 16px; vertical-align: baseline; white-space: pre-wrap;\"><img alt=\"topeka_framed_screenshots.png\" height=\"261\" src=\"https://lh4.googleusercontent.com/Al06-L_hmZjwKzx4FxHjnQePaVfX8mPXPHFlaFg7TsC_wm-WshUOhV0nkuL28t3XvEAnufoZqQSrrFEiiMrst9qrnamyHJgkYEBgz1chhyGKHFmmPkemnv3ldAxDVL7trQ\" style=\"-webkit-transform: rotate(0rad); border: none; transform: rotate(0rad);\" width=\"400\" /></span></span></div>The Topeka Android app uses an embedded Crosswalk WebView to achieve smooth performance even on older versions of Android, enabling a full fidelity material design UI with fluid animations and no polyfills. Crosswalk is now readily available through the Chrome Apps for Mobile tooling and should be used with an understanding of its <a href=\"https://github.com/MobileChromeApps/mobile-chrome-apps/blob/master/docs/Crosswalk.md\">advantages and tradeoffs</a>.<br /><br />Using Chrome Apps, you can now build performant and capable applications that target desktop, Android, and iOS devices. To get started, take a look at our <a href=\"https://github.com/MobileChromeApps/mobile-chrome-apps/blob/master/README.md\">documentation</a>. As always, we welcome your feedback on <a href=\"http://stackoverflow.com/questions/tagged/google-chrome-app\">Stack Overflow</a> and our <a href=\"https://plus.sandbox.google.com/+GoogleChromeDevelopers/posts\">G+ Developers</a> page.<br /><br />Posted by Michal Mocny, Chrome Apps for Mobile Engineer and Mobile Magic Maker<br /><div><br /></div>"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "http://blog.chromium.org/feeds/7075920004393245476/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "http://www.blogger.com/comment.g?blogID=2471378914199150966&postID=7075920004393245476",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/7075920004393245476"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/7075920004393245476"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "http://blog.chromium.org/2014/09/now-with-faster-dev-workflow-and-modern.html",
+            "title": "Chrome Apps for Mobile: Now with a faster dev workflow and a modern WebView"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Google Chrome Blog"
+            },
+            "uri": {
+              "$t": "http://www.blogger.com/profile/06394244468194711527"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "http://img2.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "thr$total": {
+          "$t": "0"
+        },
+        "gd$extendedProperty": [
+          {
+            "name": "commentSource",
+            "value": "1"
+          },
+          {
+            "name": "commentModerationMode",
+            "value": "FILTERED_POSTMOD"
+          }
+        ]
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-2471378914199150966.post-8758681746506536228"
+        },
+        "published": {
+          "$t": "2014-09-08T13:53:00.000-07:00"
+        },
+        "updated": {
+          "$t": "2014-09-08T23:06:37.104-07:00"
+        },
+        "title": {
+          "type": "text",
+          "$t": "Responsive Web Design with DevTools' Device Mode"
+        },
+        "content": {
+          "type": "html",
+          "$t": "We all develop websites on our desktop and laptop machines, so we tend to initially develop for the desktop experience. But that's increasingly out of sync with our users who, more and more, consume the web on mobile. To deliver a great experience for the web, we need to accurately experience it on mobile. Chrome DevTools has had <a href=\"http://blog.chromium.org/2013/12/chrome-devtools-for-mobile-emulate-and.html\">mobile emulation features</a> for awhile, but it's still too disconnected from real device conditions and requires too much trial and error. Chrome 38 Beta includes a new Device Mode that puts you one click away from emulating mobile devices, inspecting media queries, and emulating flaky network conditions.<br /><div><br /></div><img height=\"298\" src=\"https://lh4.googleusercontent.com/4b3wtiPPA3gI047qFZhIvExz_wsx8jPCAOq76gdSaRPjneauDj0lSBAZYCHagY2KoWnm6LlERIiql4chkVp1Koa5RnX-s2iWwhJ7fZZJXah4fSaG4W980J_9j48k643_Og\" width=\"400\" /><br /><div><br /></div><div>Now, you can turn on Device Mode right next to the \"inspect element\" icon. Once enabled, it automatically emulates a mobile viewport, along with complete emulation of touch events. You can test various viewport sizes easily with the large drag handles instead of resizing the whole browser window. You can select from popular device presets to automatically set viewport, touch, user agent and screen density settings in one fell swoop.<br /><br /><div style=\"text-align: left;\"><span id=\"docs-internal-guid-5a6c041e-5904-9083-ce9a-296943096464\"><span style=\"font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;\"><img alt=\"2014-09-06 20_47_44.gif\" height=\"298px;\" src=\"https://lh6.googleusercontent.com/pPhQpB1Wi7qg1DUwFdQKfGzvERVY5FFC7LIFZUOTUtp1tgF0B-Fyx9S0OIcnEc0zIo9-4pxrb4GQ6SdW7BNPoOsLvvqRAOWJC_hZE2uXjFNHNJVfTPb2ESYRftRszmeITg\" style=\"-webkit-transform: rotate(0.00rad); border: none; transform: rotate(0.00rad);\" width=\"532px;\" /></span></span></div><br /></div>Every media query gets represented visually, so you can correlate your breakpoints with the viewport. Clicking one resizes the viewport, making it easier to iterate on your associated styles. If you want to edit the media queries themselves, right-click and jump to the line of CSS where it's defined.<br /><br />Lastly, device emulation needs to accurately represent the connectivity of your mobile users. For example, a 3G connection significantly limits the experience of your website compared to your speedy office WiFi. The DevTools can now help you emulate the network conditions (both throughput and latency) of connectivity like EDGE, 3G, 4G – and even go offline.<br /><div>&nbsp; <br /><div><span id=\"docs-internal-guid-f3147fc5-56dc-1bb9-0c5b-da5e05d30f2d\"><span style=\"font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;\"><img alt=\"Screen Shot 2014-08-22 at 3.44.13 PM.png\" height=\"175px;\" src=\"https://lh3.googleusercontent.com/F6N_eHcZjzyYU0zkSJ_xZrBblfd1v_HnFoE5hemUMcvnC7J2SvaLERmhWMuT3YJ1Y6flkavmTEly1vopBwsSlmuaVZdLw-gOaASRlADJdtEzgxnXGSNIK34m8fivijAjgg\" style=\"-webkit-transform: rotate(0.00rad); border: none; transform: rotate(0.00rad);\" width=\"305px;\" /></span></span><br />While typical system-wide network conditioning throttles everything, DevTools will only throttle the current tab. This enables you to take your app offline and try out AppCache and Service Worker scenarios, and meanwhile browse documentation in another tab.</div><div><div dir=\"ltr\" style=\"margin-bottom: 0pt; margin-top: 0pt;\"><span id=\"docs-internal-guid-f3147fc5-56db-714f-1be3-be79ebc29f79\"><br /></span><span id=\"docs-internal-guid-f3147fc5-56db-714f-1be3-be79ebc29f79\">Please try out Device Mode your development workflow and let us know what you think. And if you're hungry for more DevTools goodness, check out my <a href=\"https://www.youtube.com/watch?v=t1PxmN_QNFI\">Google I/O 2014 talk: Developing Across Devices</a>.</span><br /><br /></div><div dir=\"ltr\" style=\"margin-bottom: 0pt; margin-top: 0pt;\"><span id=\"docs-internal-guid-f3147fc5-56db-714f-1be3-be79ebc29f79\">Posted by Paul Bakaus, Developer Advocate and Device Diviner</span></div><span id=\"docs-internal-guid-f3147fc5-56db-714f-1be3-be79ebc29f79\"></span></div></div>"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "http://blog.chromium.org/feeds/8758681746506536228/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "http://www.blogger.com/comment.g?blogID=2471378914199150966&postID=8758681746506536228",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/8758681746506536228"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/8758681746506536228"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "http://blog.chromium.org/2014/09/responsive-web-design-with-devtools.html",
+            "title": "Responsive Web Design with DevTools' Device Mode"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Google Chrome Blog"
+            },
+            "uri": {
+              "$t": "http://www.blogger.com/profile/06394244468194711527"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "http://img2.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "thr$total": {
+          "$t": "0"
+        },
+        "gd$extendedProperty": [
+          {
+            "name": "commentSource",
+            "value": "1"
+          },
+          {
+            "name": "commentModerationMode",
+            "value": "FILTERED_POSTMOD"
+          }
+        ]
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-2471378914199150966.post-7152958049509404537"
+        },
+        "published": {
+          "$t": "2014-09-05T13:08:00.000-07:00"
+        },
+        "updated": {
+          "$t": "2014-09-05T13:08:41.309-07:00"
+        },
+        "title": {
+          "type": "text",
+          "$t": "Gradually Sunsetting SHA-1"
+        },
+        "content": {
+          "type": "html",
+          "$t": "The SHA-1 cryptographic hash algorithm has been known to be considerably weaker than it was designed to be <a href=\"https://www.schneier.com/blog/archives/2005/02/cryptanalysis_o.html\">since at least 2005</a> — 9 years ago. <a href=\"https://www.schneier.com/blog/archives/2012/10/when_will_we_se.html\">Collision attacks against SHA-1 are too affordable</a> for us to consider it safe for the public web PKI. We can only expect that attacks will get cheaper.<br /><br />That’s why Chrome will start the process of sunsetting SHA-1 (as used in certificate signatures for HTTPS) with Chrome 39 in November. HTTPS sites whose certificate chains use SHA-1 and are valid past 1 January 2017 will no longer appear to be fully trustworthy in Chrome’s user interface.<br /><br />SHA-1's use on the Internet has been deprecated since 2011, when the CA/Browser Forum, an industry group of leading web browsers and certificate authorities (CAs) working together to establish basic security requirements for SSL certificates, published their <a href=\"https://cabforum.org/baseline-requirements-documents/\">Baseline Requirements for SSL</a>. These Requirements recommended that all CAs transition away from SHA-1 as soon as possible, and followed similar events in other industries and sectors, such as <a href=\"http://www.nist.gov/\">NIST</a> deprecating SHA-1 for government use in 2010.<br /><br />We have seen this type of weakness turn into a practical attack before, with the MD5 hash algorithm. We need to ensure that by the time an attack against SHA-1 is demonstrated publicly, the web has already moved away from it. Unfortunately, this can be quite challenging. For example, when Chrome disabled MD5, a number of enterprises, schools, and small businesses were affected when their proxy software — from <a href=\"https://code.google.com/p/chromium/issues/detail?id=120715\">leading vendors</a> — continued to use the insecure algorithms, and were left <a href=\"https://code.google.com/p/chromium/issues/detail?id=107845\">scrambling for updates</a>. Users who used personal firewall software were also affected.<br /><br />We plan to surface, in the HTTPS security indicator in Chrome, the fact that SHA-1 does not meet its design guarantee. We are taking a measured approach, gradually ratcheting down the security indicator and gradually moving the timetable up (keep in mind that we release stable versions of Chrome about 6 – 8 weeks after their branch point):<br /><br /><b>Chrome 39 (Branch point 26 September 2014)</b><br /><b><br /></b>Sites with end-entity (“leaf”) certificates that expire on or after 1 January 2017, and which include a SHA-1-based signature as part of the certificate chain, will be treated as “secure, but with minor errors”.<br /><br />The current visual display for “secure, but with minor errors” is a lock with a yellow triangle, and is <a href=\"https://support.google.com/chrome/answer/95617?hl=en\">used to highlight other deprecated and insecure practices</a>, such as passive mixed content.<br /><br /><div style=\"text-align: center;\"><span id=\"docs-internal-guid-425f9774-4756-6136-ca70-fda40ccf95e0\"><span style=\"font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;\"><img alt=\"yellow-triangle.png\" height=\"74px;\" src=\"https://lh4.googleusercontent.com/8zJjOLttjWEJ0ZMAC5HSzmRx6OyatYpjbeb80KyoLAboHhP3q9W0vPkqsOzSJpdRXz2Na7hKj02FQg1uGBuCic9uIsgX_esPQMYGi13ZTsXgcxJUa7jxsLtpjmIoJ0vUlg\" style=\"-webkit-transform: rotate(0.00rad); border: none; transform: rotate(0.00rad);\" width=\"216px;\" /></span></span></div><br /><b>Chrome 40 (Branch point 7 November 2014; Stable after holiday season)</b><br /><br />Sites with end-entity certificates that expire between 1 June 2016 to 31 December 2016 (inclusive), and which include a SHA-1-based signature as part of the certificate chain, will be treated as “secure, but with minor errors”.<br /><br />Sites with end-entity certificates that expire on or after 1 January 2017, and which include a SHA-1-based signature as part of the certificate chain, will be treated as “neutral, lacking security”.<br /><br />The current visual display for “neutral, lacking security” is a blank page icon, and is used in other situations, such as HTTP.<br /><br /><div style=\"text-align: center;\"><span id=\"docs-internal-guid-425f9774-4756-acc3-412e-66ee74145ac0\"><span style=\"font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;\"><img alt=\"Screen Shot 2014-09-05 at 12.05.52 PM.png\" height=\"77px;\" src=\"https://lh6.googleusercontent.com/8XDvRpBc7mR0UdDH1mLKZ2wvHOAmK3i6UJLRf6dwNvihrG7NyRXdxxuLvfEgnFyNAuOtFlksZqMvLuKtQoh41HGaLEeKgHwLomTLvKe2FC588dbZrmXFTh5QMsqH4iFNzg\" style=\"-webkit-transform: rotate(0.00rad); border: none; transform: rotate(0.00rad);\" width=\"248px;\" /></span></span></div><br /><b>Chrome 41 (Branch point in Q1 2015)</b><br /><br />Sites with end-entity certificates that expire between 1 January 2016 and 31 December 2016 (inclusive), and which include a SHA-1-based signature as part of the certificate chain, will be treated as “secure, but with minor errors”.<br /><br />Sites with end-entity certificates that expire on or after 1 January 2017, and which include a SHA-1-based signature as part of the certificate chain, will be treated as “affirmatively insecure”. Subresources from such domain will be treated as “active mixed content”.<br /><br />The current visual display for “affirmatively insecure” is a lock with a red X, and a red strike-through text treatment in the URL scheme.<br /><br /><div style=\"text-align: center;\"><span id=\"docs-internal-guid-425f9774-4756-da5e-c8cd-f659093eb557\"><span style=\"font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;\"><img alt=\"Screen Shot 2014-08-29 at 1.26.59 PM.png\" height=\"72px;\" src=\"https://lh4.googleusercontent.com/rYYCjDTdqB3ar2vPea-Z8L2oudlI416PGCrFYR8ml95_3TOewLob0evW8GfkraMFdY8nOPO68EloBYPNbtUxP8uz7I-OQ7ymANYmXaR0yaqTZjR-bD-03qZF2onISujsUA\" style=\"-webkit-transform: rotate(0.00rad); border: none; transform: rotate(0.00rad);\" width=\"272px;\" /></span></span></div><i><br /></i><i>Note: SHA-1-based signatures for trusted root certificates are not a problem because TLS clients trust them by their identity, rather than by the signature of their hash.</i><br /><div><br /></div><div>Posted by Chris Palmer, Secure Socket Lover and Ryan Sleevi, Transport Layer Securer</div>"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "http://blog.chromium.org/feeds/7152958049509404537/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "http://www.blogger.com/comment.g?blogID=2471378914199150966&postID=7152958049509404537",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/7152958049509404537"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/7152958049509404537"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "http://blog.chromium.org/2014/09/gradually-sunsetting-sha-1.html",
+            "title": "Gradually Sunsetting SHA-1"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Google Chrome Blog"
+            },
+            "uri": {
+              "$t": "http://www.blogger.com/profile/06394244468194711527"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "http://img2.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "thr$total": {
+          "$t": "0"
+        },
+        "gd$extendedProperty": [
+          {
+            "name": "commentSource",
+            "value": "1"
+          },
+          {
+            "name": "commentModerationMode",
+            "value": "FILTERED_POSTMOD"
+          }
+        ]
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-2471378914199150966.post-718823995280986663"
+        },
+        "published": {
+          "$t": "2014-09-03T10:32:00.000-07:00"
+        },
+        "updated": {
+          "$t": "2014-09-03T10:32:51.138-07:00"
+        },
+        "title": {
+          "type": "text",
+          "$t": "Moving Towards a Single Cloud Messaging API"
+        },
+        "content": {
+          "type": "html",
+          "$t": "In April we released <a href=\"http://blog.chromium.org/2014/04/simplifying-cloud-messaging-for-app.html\">chrome.gcm</a>, an API that allows Chrome apps and extensions to use the <a href=\"http://developer.android.com/google/gcm/index.html\">Google Cloud Messaging</a> (GCM) service to interact with their server-side components via push messaging. Since the new API offers significant improvements and has been used for push messaging in Chrome apps and extensions since May 2014, we are now deprecating the legacy <a href=\"https://developer.chrome.com/extensions/pushMessaging\">chrome.pushMessaging</a> API.<br /><br />Developers will start to see a deprecation message in the console if they use chrome.pushMessaging, and no new Chrome apps and extensions will be accepted to the Chrome Web Store if they use the deprecated API. Beginning in mid-January 2015, Chrome apps and extensions that continue to use chrome.pushMessaging will be delisted in the Chrome Web Store. When upgraded to use chrome.gcm, these apps will once again be discoverable via searching and browsing the Web Store. In early March, the chrome.pushMessaging API will be removed and all Chrome apps and extensions that continue to reference it will be automatically disabled. They can be enabled once again when upgraded to use chrome.gcm.<br /><br />For a high level overview of how an app or extension can leverage chrome.gcm, check out our <a href=\"https://www.youtube.com/watch?v=g_zkOOWsmco\">Google I/O Bytes video</a>. Learn how to upgrade your Chrome apps and extensions by consulting the <a href=\"https://developer.chrome.com/apps/gcm\">chrome.gcm API documentation</a> and following this <a href=\"https://developer.chrome.com/apps/cloudMessaging\">tutorial</a>. Lastly, subscribe to the <a href=\"https://groups.google.com/forum/#!forum/gcm-for-chrome-feedback\">GCM for Chrome Feedback</a> group to ask questions, get help, and learn more about the transition.<br /><br />Posted by Jake Leichtling and Filip Gorski, Product Manager and Software Engineer"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "http://blog.chromium.org/feeds/718823995280986663/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "http://www.blogger.com/comment.g?blogID=2471378914199150966&postID=718823995280986663",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/718823995280986663"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/718823995280986663"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "http://blog.chromium.org/2014/09/moving-towards-single-cloud-messaging.html",
+            "title": "Moving Towards a Single Cloud Messaging API"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Google Chrome Blog"
+            },
+            "uri": {
+              "$t": "http://www.blogger.com/profile/06394244468194711527"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "http://img2.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "thr$total": {
+          "$t": "0"
+        },
+        "gd$extendedProperty": [
+          {
+            "name": "commentSource",
+            "value": "1"
+          },
+          {
+            "name": "commentModerationMode",
+            "value": "FILTERED_POSTMOD"
+          }
+        ]
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-2471378914199150966.post-5172300056958057925"
+        },
+        "published": {
+          "$t": "2014-08-28T17:20:00.000-07:00"
+        },
+        "updated": {
+          "$t": "2014-09-08T11:25:08.389-07:00"
+        },
+        "title": {
+          "type": "text",
+          "$t": "Chrome 38 Beta: New primitives for the next-generation web"
+        },
+        "content": {
+          "type": "html",
+          "$t": "Today’s Chrome <a href=\"https://www.google.com/landing/chrome/beta/\">Beta</a> channel release includes a ton of new primitives and APIs to simplify development and give developers more control over their web applications. Unless otherwise noted, changes described below apply to Chrome for Android, Windows, Mac, Linux, and Chrome OS.<br /><br /><b>New HTML element: &lt;picture&gt;</b><br /><br />This release adds support for the new <a href=\"https://developers.google.com/web/fundamentals/media/images/images-in-markup#art-direction-in-responsive-images-with-picture\">&lt;picture&gt; element</a> thanks to the hard work of community contributor <a href=\"http://blog.yoav.ws/\">Yoav Weiss</a>, who was able to dedicate his time to implementing this feature in multiple rendering engines because of a <a href=\"https://www.indiegogo.com/projects/picture-element-implementation-in-blink\">successful crowdfunding campaign</a> that raised 50% more than its funding goal.<br /><br />The &lt;picture&gt; element takes the concept of <a href=\"http://www.html5rocks.com/en/mobile/responsivedesign/\">responsive design</a>, previously solved by sending duplicate resources to the client, and bakes an elegant solution right into the web platform. It allows developers to list multiple versions of images that may be appropriate for the browser to display based on screen size, pixel density, or other factors.<br /><div><br /><span style=\"color: #38761d;\">&lt;picture&gt;<br />&nbsp; &nbsp; &lt;source media=\"(min-width: 45em)\" srcset=\"large.jpg\"&gt;<br />&nbsp; &nbsp; &lt;source media=\"(min-width: 32em)\" srcset=\"med.jpg\"&gt;<br />&nbsp; &nbsp; &lt;img src=\"small.jpg\" alt=\"The president giving an award.\"&gt;<br />&lt;/picture&gt;</span><br /><br /><b>New JavaScript features</b><br /><br />Chrome 38 also enables by default several new JavaScript language features from the draft <a href=\"http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts\">ECMAScript 6 (ES6) specification</a>. Additions include:<br /><ul><li><a href=\"http://updates.html5rocks.com/2014/08/Collecting-and-Iterating-the-ES6-Way\">Maps and sets</a>, two highly-requested data structures which make storing and interacting with data simpler and more rational.</li><li>Iterators now provide an easy and extensible <a href=\"http://updates.html5rocks.com/2014/08/Collecting-and-Iterating-the-ES6-Way\">way to iterate over sequenced data types</a> such as arrays and strings, as well as the new maps and sets.</li><li><a href=\"http://www.chromestatus.com/feature/6042091272536064\">Symbols</a>, which help prevent object properties from unintentionally interfering with each other.</li><li>Math functions such as Math.sign and Math.log10, which prevents developers from having to re-implement these functions and provides the performance boost of built-in functions. Take a look at the <a href=\"http://www.chromestatus.com/feature/5920790725787648\">full list of new functions</a>.</li></ul>Future releases of Chrome will contain even more ES6 features as the specification matures. Stay posted!<br /><br /><b>Other updates in this release</b><br /><ul><li>The <a href=\"https://github.com/GoogleChrome/samples/tree/gh-pages/network-information\">Network Information (\"NetInfo\") API</a> is now enabled, giving web applications access to the current type of network on a device running Android, iOS, or Chrome OS. This could allow an app to only do data-intensive activities such as syncing when connected to a Wi-Fi connection.</li><li>The addition of the <a href=\"http://www.chromestatus.com/feature/6191285283061760\">Screen Orientation API</a> allows developers to not only detect whether a device is in portrait or landscape mode, but also lock the screen orientation while a user is within that app.</li><li>The CSS value <a href=\"https://github.com/GoogleChrome/samples/tree/gh-pages/image-rendering-pixelated\">\"image-rendering: pixelated\"</a> is now supported, which allows scaled images to appear to be composed of very large pixels. Example use cases include high-performance display of zoomed photos in image editing software without large bandwidth or load time costs.</li><li>The Encoding API enables the encoding and decoding of data from binary streams, such as <a href=\"http://updates.html5rocks.com/2014/08/Easier-ArrayBuffer---String-conversion-with-the-Encoding-API\">converting between a raw ArrayBuffer and a string</a>.</li><li>The new <a href=\"https://github.com/GoogleChrome/samples/tree/gh-pages/file-constructor\">File interface</a> allows developers to create and interact with File objects in the same way as Blob objects.</li><li>SVG fonts are no longer supported, except on Windows systems older than Windows 7. Note that while the feature works on those systems, it is considered deprecated.</li></ul>As always, visit <a href=\"http://chromestatus.com/features\">chromestatus.com/features</a> for a complete overview of Chrome’s developer features,  and circle <a href=\"https://plus.google.com/+GoogleChromeDevelopers\">+Google Chrome Developers</a> for more frequent updates!<br /><br />Posted by Andreas Rossberg, Senior Symbolic Software Engineer</div>"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "http://blog.chromium.org/feeds/5172300056958057925/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "http://www.blogger.com/comment.g?blogID=2471378914199150966&postID=5172300056958057925",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/5172300056958057925"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/5172300056958057925"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "http://blog.chromium.org/2014/08/chrome-38-beta-new-primitives-for-next.html",
+            "title": "Chrome 38 Beta: New primitives for the next-generation web"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Google Chrome Blog"
+            },
+            "uri": {
+              "$t": "http://www.blogger.com/profile/06394244468194711527"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "http://img2.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "thr$total": {
+          "$t": "0"
+        },
+        "gd$extendedProperty": [
+          {
+            "name": "commentSource",
+            "value": "1"
+          },
+          {
+            "name": "commentModerationMode",
+            "value": "FILTERED_POSTMOD"
+          }
+        ]
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-2471378914199150966.post-8155951321583196012"
+        },
+        "published": {
+          "$t": "2014-08-28T15:37:00.000-07:00"
+        },
+        "updated": {
+          "$t": "2014-08-28T16:00:12.121-07:00"
+        },
+        "title": {
+          "type": "text",
+          "$t": "Mac Chrome: When I’m Sixty-Four (Bits)"
+        },
+        "content": {
+          "type": "html",
+          "$t": "On the heels of Tuesday’s release of <a href=\"http://blog.chromium.org/2014/08/64-bits-of-awesome-64-bit-windows_26.html\">64-bit Chrome for Windows</a>, all Mac Chrome users on the <a href=\"https://www.google.com/chrome/browser/beta.html\">beta channel</a> will be updated to a new 64-bit version of Chrome 38. Previously, Chrome was a 32-bit app on Macs. While doubling the number of bits won’t make things twice as good, it does allow us to make a number of speed and security improvements.<br /><br />64-bit Chrome has become faster as a result of having access to a superior instruction set, more registers, and a more efficient function calling convention. Improved opportunities for <a href=\"http://en.wikipedia.org/wiki/Address_space_layout_randomization\">ASLR</a> enhance this version’s security. Another major benefit of this change comes from the fact that most programs on a modern Mac are already 64-bit apps. In cases where Chrome was the last remaining 32-bit app, there were launch-time and memory-footprint penalties as 32-bit copies of all of the system libraries needed to be loaded to support Chrome. Now that Chrome’s a 64-bit app too, we expect you’ll find that it launches more quickly and that overall system memory use decreases.<br /><br />Because of this change, Chrome for Mac will no longer support 32-bit <a href=\"https://developer.chrome.com/extensions/npapi\">NPAPI</a> plugins, although their 64-bit counterparts are supported. Users shouldn’t notice any changes, because most major plugins are available in both 32-bit and 64-bit form, and many major websites have been switching from NPAPI towards more modern <a href=\"http://www.html5rocks.com/\">HTML5 APIs</a>. This is also a good time to remind everyone that <a href=\"http://blog.chromium.org/2013/09/saying-goodbye-to-our-old-friend-npapi.html\">NPAPI support will be removed from Chrome</a> later this year.<br /><br />Nearly every Mac user has a computer capable of running this 64-bit version, so we’re automatically updating all Mac Chrome beta channel users. Those few users with first-generation Intel Macs will miss out on the fun, but as we bid them farewell, we’ll remind them that they’ll still be able to run the latest version on the <a href=\"https://www.google.com/chrome/browser/\">stable channel</a>, <a href=\"http://googlechromereleases.blogspot.com/2014/08/stable-channel-update_26.html\">Chrome 37</a>.<br /><br />You can check to see if the Chrome you’re running is a 64-bit version by checking Chrome’s About page (chrome://help) and looking next to the version number. If it says “64-bit” there, that’s a sure sign that you’re running one of these new builds. We hope that this is the only visible difference that you’ll find between the old 32-bit and new 64-bit versions, but in case you find anything amiss during the beta period, please <a href=\"https://code.google.com/p/chromium/issues/entry?template=Defect%20on%20Mac%20OS&amp;summary=Mac64%20Feedback&amp;labels=OS-Mac,Arch-x86_64,mac64,Via-ChromiumBlog\">let us know</a>.<br /><br />Posted by Mark Mentovai, Software Engineer and Register Doubler"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "http://blog.chromium.org/feeds/8155951321583196012/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "http://www.blogger.com/comment.g?blogID=2471378914199150966&postID=8155951321583196012",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/8155951321583196012"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/8155951321583196012"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "http://blog.chromium.org/2014/08/mac-chrome-when-im-sixty-four-bits.html",
+            "title": "Mac Chrome: When I’m Sixty-Four (Bits)"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Google Chrome Blog"
+            },
+            "uri": {
+              "$t": "http://www.blogger.com/profile/06394244468194711527"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "http://img2.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "thr$total": {
+          "$t": "0"
+        },
+        "gd$extendedProperty": [
+          {
+            "name": "commentSource",
+            "value": "1"
+          },
+          {
+            "name": "commentModerationMode",
+            "value": "FILTERED_POSTMOD"
+          }
+        ]
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-2471378914199150966.post-4952546123381298765"
+        },
+        "published": {
+          "$t": "2014-08-26T10:16:00.000-07:00"
+        },
+        "updated": {
+          "$t": "2014-08-26T10:22:02.047-07:00"
+        },
+        "title": {
+          "type": "text",
+          "$t": "64 bits of awesome: 64-bit Windows Support, now in Stable!"
+        },
+        "content": {
+          "type": "html",
+          "$t": "<div dir=\"ltr\" style=\"line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;\"><span style=\"font-family: Arial; vertical-align: baseline; white-space: pre-wrap;\">Today, after a successful experiment with Chrome 64-bit Windows in our Dev and Canary channels in </span><a href=\"http://blog.chromium.org/2014/06/try-out-new-64-bit-windows-canary-and.html\" style=\"line-height: 1.15; text-decoration: none;\"><span style=\"color: #1155cc; font-family: Arial; text-decoration: underline; vertical-align: baseline; white-space: pre-wrap;\">June</span></a><span style=\"font-family: Arial; vertical-align: baseline; white-space: pre-wrap;\">, 64-bit Windows support is coming to Chrome Stable with the release of Chrome 37.</span><br /><span style=\"font-family: Arial; vertical-align: baseline; white-space: pre-wrap;\"><br /></span></div><span style=\"color: black; font-family: Arial; line-height: 1.15; vertical-align: baseline; white-space: pre-wrap;\">64-bit Chrome offers many benefits for speed, stability and security. Our measurements have shown that the native 64-bit version of Chrome has improved speed on many of our graphics and media benchmarks. For example, the VP9 codec that’s used in High Definition YouTube videos shows a 15% improvement in decoding performance. Stability measurements from people opted into our Canary, Dev and Beta 64-bit channels confirm that 64-bit rendering engines are almost twice as stable as 32-bit engines when handling typical web content. Finally, on 64-bit, our </span><a href=\"http://www.chromium.org/chromium-os/chromiumos-design-docs/security-overview#TOC-Guiding-principles\" style=\"line-height: 1.15; text-decoration: none;\"><span style=\"color: #1155cc; font-family: Arial; text-decoration: underline; vertical-align: baseline; white-space: pre-wrap;\">defense in depth</span></a><span style=\"color: black; font-family: Arial; line-height: 1.15; vertical-align: baseline; white-space: pre-wrap;\"> security mitigations such as </span><a href=\"https://code.google.com/p/chromium/codesearch#chromium/src/third_party/WebKit/Source/wtf/PartitionAlloc.h&amp;sq=package:chromium&amp;type=cs&amp;l=35\" style=\"line-height: 1.15; text-decoration: none;\"><span style=\"color: #1155cc; font-family: Arial; text-decoration: underline; vertical-align: baseline; white-space: pre-wrap;\">Partition Alloc</span></a><span style=\"color: black; font-family: Arial; line-height: 1.15; vertical-align: baseline; white-space: pre-wrap;\"> are able to far more effectively defend against vulnerabilities that rely on controlling the memory layout of objects.</span><br /><span style=\"color: black; font-family: Arial; line-height: 1.15; vertical-align: baseline; white-space: pre-wrap;\"><br /></span><span style=\"color: black; font-family: Arial; line-height: 1.15; vertical-align: baseline; white-space: pre-wrap;\">At this point 64-bit will remain opt-in, so to take advantage of the improvements click on the new “Windows 64-bit” link on the Chrome </span><a href=\"https://www.google.com/chrome/browser/index.html\" style=\"line-height: 1.15; text-decoration: none;\"><span style=\"color: #1155cc; font-family: Arial; text-decoration: underline; vertical-align: baseline; white-space: pre-wrap;\">download page</span></a><span style=\"color: black; font-family: Arial; line-height: 1.15; vertical-align: baseline; white-space: pre-wrap;\">. Currently, the only significant </span><a href=\"https://support.google.com/chrome/known-issues/15036\" style=\"line-height: 1.15; text-decoration: none;\"><span style=\"color: #1155cc; font-family: Arial; text-decoration: underline; vertical-align: baseline; white-space: pre-wrap;\">known issue</span></a><span style=\"color: black; font-family: Arial; line-height: 1.15; vertical-align: baseline; white-space: pre-wrap;\"> is the lack of 32-bit NPAPI plugin support. The 32-bit channel will remain fully supported for the foreseeable future and we will continue to support 32-bit plugins until NPAPI is </span><a href=\"http://blog.chromium.org/2013/09/saying-goodbye-to-our-old-friend-npapi.html\" style=\"line-height: 1.15; text-decoration: none;\"><span style=\"color: #1155cc; font-family: Arial; text-decoration: underline; vertical-align: baseline; white-space: pre-wrap;\">removed</span></a><span style=\"color: black; font-family: Arial; line-height: 1.15; vertical-align: baseline; white-space: pre-wrap;\"> from Chrome.</span><br /><span style=\"color: black; font-family: Arial; line-height: 1.15; vertical-align: baseline; white-space: pre-wrap;\"><br /></span><span style=\"color: black; font-family: Arial; line-height: 1.15; vertical-align: baseline; white-space: pre-wrap;\">We encourage you to give 64-bit Chrome a try. We’re looking forward to hearing your </span><a href=\"https://code.google.com/p/chromium/issues/entry?labels=Arch-x86_64,Type-?,Pri-2,OS-Windows&amp;summary=Win64:%20Feedback\" style=\"line-height: 1.15; text-decoration: none;\"><span style=\"color: #1155cc; font-family: Arial; text-decoration: underline; vertical-align: baseline; white-space: pre-wrap;\">feedback</span></a><span style=\"color: black; font-family: Arial; line-height: 1.15; vertical-align: baseline; white-space: pre-wrap;\"> so we can continue to make Chrome the fastest, most secure and stable browser.</span><br /><span style=\"color: black; font-family: Arial; line-height: 1.15; vertical-align: baseline; white-space: pre-wrap;\"><br /></span><span style=\"color: black; font-family: Arial; line-height: 1.15; vertical-align: baseline; white-space: pre-wrap;\">Posted by Will Harris, </span><span style=\"font-family: Arial; line-height: 1.15; white-space: pre-wrap;\">Software Engineer and Embiggener of Bits</span>"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "http://blog.chromium.org/feeds/4952546123381298765/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "http://www.blogger.com/comment.g?blogID=2471378914199150966&postID=4952546123381298765",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/4952546123381298765"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/4952546123381298765"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "http://blog.chromium.org/2014/08/64-bits-of-awesome-64-bit-windows_26.html",
+            "title": "64 bits of awesome: 64-bit Windows Support, now in Stable!"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Google Chrome Blog"
+            },
+            "uri": {
+              "$t": "http://www.blogger.com/profile/06394244468194711527"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "http://img2.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "thr$total": {
+          "$t": "0"
+        },
+        "gd$extendedProperty": [
+          {
+            "name": "commentSource",
+            "value": "1"
+          },
+          {
+            "name": "commentModerationMode",
+            "value": "FILTERED_POSTMOD"
+          }
+        ]
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-2471378914199150966.post-7713999958979253754"
+        },
+        "published": {
+          "$t": "2014-07-17T14:34:00.000-07:00"
+        },
+        "updated": {
+          "$t": "2014-09-08T11:23:01.885-07:00"
+        },
+        "title": {
+          "type": "text",
+          "$t": "Chrome 37 Beta: DirectWrite on Windows and the <dialog> element"
+        },
+        "content": {
+          "type": "html",
+          "$t": "Today’s <a href=\"https://www.google.com/landing/chrome/beta/\">Chrome Beta</a> channel release includes a slew of new developer features to help you make richer, faster and more compelling web content and apps, especially for mobile devices. Unless otherwise noted, changes described below apply to Chrome for Android, Windows, Mac, Linux, and Chrome OS.<br /><br /><b>DirectWrite on Windows</b><br /><br />Chrome 37 adds support for <a href=\"http://msdn.microsoft.com/en-us/library/windows/desktop/dd368038(v=vs.85).aspx\">DirectWrite</a>, an API on Windows for clear, high-quality text rendering even on high DPI displays. Before DirectWrite, Chrome used the Graphics Device Interface (GDI) to render text. GDI dates back to the mid-80's and reflects the engineering tradeoffs of that time, particularly for slower, lower-resolution machines. The switch to DirectWrite has been a <a href=\"http://crbug.com/25541\">top user request for years</a>, and required extensive re-architecting and streamlining of Chrome's font rendering engine.<br /><br />Some users should begin seeing better-looking fonts and increased rendering performance as we roll out DirectWrite, with no changes required by web developers. Assuming everything goes smoothly, all users will experience the improvements by the Chrome 37 stable release.<br /><br />Compare the below screenshots, taken with and without DirectWrite enabled.<br /><br /><div style=\"text-align: center;\"><a href=\"http://4.bp.blogspot.com/-4mueYYHRq8I/U8g3U-bk26I/AAAAAAAAAUM/4b50Cr2bgIA/s1600/directwrite-comparison.png\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" src=\"http://3.bp.blogspot.com/-_NfS2K--Pgc/U8gyKbVG_UI/AAAAAAAAAUA/I-9_Zdw0pfw/s1600/Untitled-1.png\" /></a><br /><br /></div><b>New HTML element: &lt;dialog&gt;</b><br /><br />In this release we're also adding support for the <a href=\"http://www.w3.org/html/wg/drafts/html/master/interactive-elements.html#the-dialog-element\">&lt;dialog&gt; HTML5 element</a>, which enables developers to create styled dialog boxes in their web applications and control them via a JavaScript API. For more details, <a href=\"http://demo.agektmr.com/dialog/\">check out some code samples and see &lt;dialog&gt; in action</a>. The &lt;dialog&gt; element is a better-designed alternative to showModalDialog(), which is now disabled as we <a href=\"http://blog.chromium.org/2014/07/disabling-showmodaldialog.html\">recently announced</a>.<br /><br /><b>Other updates in this release</b><br /><br /><ul><li>The <a href=\"http://www.w3.org/TR/WebCryptoAPI/\">Web Cryptography JavaScript API</a> is enabled by default starting in Chrome 37, allowing developers to perform cryptographic operations such as hashing, signature generation/verification, and encryption.</li><li>Subpixel font scaling is now supported, which enables smooth animations of text between font sizes. &nbsp;</li><li>TouchEvent co-ordinates are now doubles instead of longs, enabling higher-fidelity touch interactions on high-DPI displays.</li><li>CSS cursor values <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/cursor\">\"zoom-in\" and \"zoom-out\"</a> are now unprefixed.</li><li>The number of cores on a physical machine can now be accessed by <a href=\"http://wiki.whatwg.org/wiki/Navigator_HW_Concurrency\">navigator.hardwareConcurrency</a>.</li><li>The user's preferred languages are now accessible by navigator.languages, and the languagechange event is fired when this is updated.</li><li>The <a href=\"http://blogs.adobe.com/webplatform/2014/05/13/good-looking-shapes-gallery/\">CSS Shapes Module</a> allows developers to define non-rectangular text wrapping boundaries around floated elements.</li><li>NPAPI deprecation continues according to our <a href=\"http://blog.chromium.org/2014/05/update-on-npapi-deprecation.html\">previously-announced plan</a> with a <a href=\"https://sites.google.com/a/chromium.org/dev/developers/npapi-deprecation\">harder-to-bypass blocking UI</a>.&nbsp;</li><li>The default monospace font on Windows is now Consolas instead of Courier New.</li><li>Cross-origin fonts are now blocked unless the response includes the appropriate CORS headers.</li></ul>As always, visit <a href=\"http://chromestatus.com/features\">chromestatus.com/features</a> for a complete overview of Chrome’s developer features, &nbsp;and circle <a href=\"https://plus.google.com/+GoogleChromeDevelopers\">+Google Chrome Developers</a> for more frequent updates!<br /><br />Posted by Emil A Eklund, Software Engineer and Senior Blog DirectWriter<br /><br /><a href=\"http://4.bp.blogspot.com/-4mueYYHRq8I/U8g3U-bk26I/AAAAAAAAAUM/4b50Cr2bgIA/s1600/directwrite-comparison.png\" imageanchor=\"1\" style=\"display: none; margin-left: 1em; margin-right: 1em;\"><img border=\"0\" src=\"http://4.bp.blogspot.com/-4mueYYHRq8I/U8g3U-bk26I/AAAAAAAAAUM/4b50Cr2bgIA/s1600/directwrite-comparison.png\" /></a><br /><div><br /></div>"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "http://blog.chromium.org/feeds/7713999958979253754/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "http://www.blogger.com/comment.g?blogID=2471378914199150966&postID=7713999958979253754",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/7713999958979253754"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/7713999958979253754"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "http://blog.chromium.org/2014/07/chrome-37-beta-directwrite-on-windows.html",
+            "title": "Chrome 37 Beta: DirectWrite on Windows and the &#60;dialog&#62; element"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Google Chrome Blog"
+            },
+            "uri": {
+              "$t": "http://www.blogger.com/profile/06394244468194711527"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "http://img2.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "media$thumbnail": {
+          "xmlns$media": "http://search.yahoo.com/mrss/",
+          "url": "http://3.bp.blogspot.com/-_NfS2K--Pgc/U8gyKbVG_UI/AAAAAAAAAUA/I-9_Zdw0pfw/s72-c/Untitled-1.png",
+          "height": "72",
+          "width": "72"
+        },
+        "thr$total": {
+          "$t": "0"
+        },
+        "gd$extendedProperty": [
+          {
+            "name": "commentSource",
+            "value": "1"
+          },
+          {
+            "name": "commentModerationMode",
+            "value": "FILTERED_POSTMOD"
+          }
+        ]
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-2471378914199150966.post-3047122251022509171"
+        },
+        "published": {
+          "$t": "2014-07-16T14:00:00.000-07:00"
+        },
+        "updated": {
+          "$t": "2014-07-16T14:00:44.391-07:00"
+        },
+        "title": {
+          "type": "text",
+          "$t": "Disabling showModalDialog"
+        },
+        "content": {
+          "type": "html",
+          "$t": "The web platform has evolved organically over the past two decades, slowly growing new capabilities and APIs. Many features that are added are great ideas that enable web developers to make even better applications. But some APIs turn out, in retrospect, to be mistakes. Over time, the platform accretes more bad APIs, which makes it harder to add new browser features, confuses web developers, and even introduces security bugs. showModalDialog is a bad API that we <a href=\"http://blog.chromium.org/2014/04/chrome-35-beta-more-developer-control.html\">deprecated earlier this year</a>, and in Chrome 37 we will disable support for it by default.<br /><br />showModalDialog was first introduced in Internet Explorer 4 and although it was never formally standardized, over time most other browsers added support for it. It allows applications to show a dialog of HTML content that freezes all other content while showing. showModalDialog is not a commonly used API: based on our usage counters, <a href=\"http://www.chromestatus.com/metrics/feature/timeline/popularity/195\">less than 0.006% of pages use it</a>.<br /><br />Unfortunately, showModalDialog's unique ability to freeze content is <a href=\"https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/xh9fPX0ijqk/8oPryGUsGPMJ\">now</a> <a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=933040\">widely</a> <a href=\"http://dev.opera.com/blog/showmodaldialog/\">regarded</a> as a mis-feature in terms of user experience, code complexity, and security. From a usability perspective, showModalDialog rudely demands that you interact with it by freezing all of your other tabs—even ones from other sites. showModalDialog also requires complex and hard-to-maintain code scattered throughout the codebase. This complexity complicates the behavior of new web features like Mutation Observers, Object.observe, and Promises. It also makes showModalDialog a source of a disproportionate number of bugs, including serious security vulnerabilities. It is for these reasons that we decided to turn off showModalDialog by default in the next version of Chrome.<br /><br />Although very few sites use showModalDialog, the small minority that do—disproportionately enterprise sites—have come to rely heavily on it. In order to give these sites more time to update, we have added a temporary <a href=\"http://www.chromium.org/administrators/policy-list-3#EnableDeprecatedWebPlatformFeatures\">Enterprise Policy setting to re-enable showModalDialog</a>. In May 2015 this setting will be removed and showModalDialog will be completely removed from Chromium. Affected sites should begin work to update their sites as soon as possible.<br /><br />Although it can be difficult, sometimes the only way to <a href=\"http://glazkov.com/2014/04/24/going-forward-is-leaving-past-behind/\">go forward is to leave the past behind</a>. Removing bad APIs will help us make the web a more consistent and capable platform for both developers and users.<br /><br />Posted by&nbsp;Adam Barth, Software Engineer"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "http://blog.chromium.org/feeds/3047122251022509171/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "http://www.blogger.com/comment.g?blogID=2471378914199150966&postID=3047122251022509171",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/3047122251022509171"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/3047122251022509171"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "http://blog.chromium.org/2014/07/disabling-showmodaldialog.html",
+            "title": "Disabling showModalDialog"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Google Chrome Blog"
+            },
+            "uri": {
+              "$t": "http://www.blogger.com/profile/06394244468194711527"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "http://img2.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "thr$total": {
+          "$t": "0"
+        },
+        "gd$extendedProperty": [
+          {
+            "name": "commentSource",
+            "value": "1"
+          },
+          {
+            "name": "commentModerationMode",
+            "value": "FILTERED_POSTMOD"
+          }
+        ]
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-2471378914199150966.post-4297662090780834503"
+        },
+        "published": {
+          "$t": "2014-06-30T15:38:00.000-07:00"
+        },
+        "updated": {
+          "$t": "2014-07-02T12:25:19.190-07:00"
+        },
+        "title": {
+          "type": "text",
+          "$t": "Migrate Your Legacy Packaged Apps to Chrome Apps"
+        },
+        "content": {
+          "type": "html",
+          "$t": "In 2010, we created <a href=\"https://developer.chrome.com/extensions/apps\">packaged apps</a> to fill a missing link between <a href=\"https://developer.chrome.com/extensions/index\">extensions</a> and <a href=\"https://developers.google.com/chrome/apps/docs/developers_guide\">hosted apps</a>. They look the same as a hosted app to the user, but under the covers, they are more like traditional extensions. Over time, we realized that a clearer separation between the Chrome browser and apps was necessary, both for security reasons and to conform to user expectations. We <a href=\"http://chrome.blogspot.com/2013/09/a-new-breed-of-chrome-apps.html\">launched</a> the next generation of Chrome Apps, a new version of packaged apps,&nbsp;last year to address those issues, and today we're announcing the deprecation of legacy packaged apps.<br /><br />Starting today, no new legacy packaged apps can be published in the Chrome Web Store. In December, all existing legacy packaged app listings will be removed from Chrome Web Store’s search and browse functions. Existing legacy packaged apps can be updated until Chrome stops loading them in June of 2015.&nbsp;Nothing will change for hosted apps or new packaged apps.<br /><br />Developers are strongly encouraged to migrate their legacy packaged apps to either Chrome Apps or extensions. To get started, check out our <a href=\"https://developer.chrome.com/webstore/migrating\">migration tutorial</a>, and contact us on the <a href=\"https://groups.google.com/a/chromium.org/group/chromium-apps\">chromium-apps</a> forum or <a href=\"https://plus.google.com/+GoogleChromeDevelopers/\">our G+ page</a> with any questions.<br /><br />Posted by Amanda Bishop, Product Manager<br /><div><br /></div>"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "http://blog.chromium.org/feeds/4297662090780834503/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "http://www.blogger.com/comment.g?blogID=2471378914199150966&postID=4297662090780834503",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/4297662090780834503"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/4297662090780834503"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "http://blog.chromium.org/2014/06/migrate-your-legacy-packaged-apps-to.html",
+            "title": "Migrate Your Legacy Packaged Apps to Chrome Apps"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Google Chrome Blog"
+            },
+            "uri": {
+              "$t": "http://www.blogger.com/profile/06394244468194711527"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "http://img2.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "thr$total": {
+          "$t": "0"
+        },
+        "gd$extendedProperty": [
+          {
+            "name": "commentSource",
+            "value": "1"
+          },
+          {
+            "name": "commentModerationMode",
+            "value": "FILTERED_POSTMOD"
+          }
+        ]
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-2471378914199150966.post-8907043288211181996"
+        },
+        "published": {
+          "$t": "2014-06-25T12:41:00.000-07:00"
+        },
+        "updated": {
+          "$t": "2014-06-25T12:42:28.689-07:00"
+        },
+        "title": {
+          "type": "text",
+          "$t": "Cast Away with Android TV and Google Cast"
+        },
+        "content": {
+          "type": "html",
+          "$t": "<i>[Cross-posted from the <a href=\"http://googledevelopers.blogspot.com/2014/06/cast-away-with-android-tv-and-google.html\">Google Developers Blog</a>]</i><br /><div style=\"float: right; padding: 1.5em 0 2em 2em;\"><a href=\"https://www.google.com/events/io\"><img border=\"0\" src=\"http://3.bp.blogspot.com/-LetA0H8RAuo/U6nPib4y96I/AAAAAAAAAmg/niPD190Xg9E/s1600/io1200px-01.png\" style=\"width: 360px;\" /></a></div><br />Last summer, we launched Chromecast, a small, affordable device that lets you cast online video, music and anything from the web to your TV. Today at Google I/O, we announced Android TV, the newest form factor to the Android platform, and a way to extend the reach of Google Cast to more devices, like televisions, set-top boxes and consoles.<br /><br />Check out <a href=\"http://googleblog.blogspot.com/2014/06/google-io-2014-keynote.html\">Coming to a Screen Near You</a> for some details on everything we’re doing to make your TV the place to be.<br /><br />For developers though--sorry, you don’t get to unwind in front of the TV.  We need you to get to work and help us create the best possible TV experience, with all of the new features announced at I/O today.<br /><h3 style=\"font-family: Roboto,sans-serif; font-size: 20px; font-weight: 400;\"><br />Get started with Android TV</h3><br />In addition to Google Cast apps that send content to the TV, you can now build immersive native apps and console-style games on Android TV devices. These native apps work with TV remotes and gamepads, even if you don’t have your phone handy. The Android L Developer Preview SDK includes the new Leanback support library that allows you to design smoother, simpler, living room apps. <br /><br />And this is just the beginning. In the fall, new APIs will allow you to cast directly to these apps, so users can control the app with the phone, the remote, or even their Android Wear watch. You’ll also start seeing Android TV set-top boxes, consoles and televisions from Sony, TP Vision, Sharp, Asus, Razer and more.<br /><br /><h3 style=\"font-family: Roboto,sans-serif; font-size: 20px; font-weight: 400;\">Help more users find your Google Cast app</h3><br />We want to help users more easily find your content, so we’ve improved the <a href=\"https://cast.google.com/publish/\">Google Cast SDK developer console</a> to let you upload your app icon, app name, and app category for Android, iOS and Chrome. These changes will help your app get discovered on <a href=\"http://chromecast.com/apps\">chromecast.com/apps</a> and on Google Play.<br /><br /><div style=\"text-align: center;\"><a href=\"http://1.bp.blogspot.com/-pr7aFIQAYfM/U6puNuIodqI/AAAAAAAAAmw/g_8EZRI_xk0/s1600/image00.png\" imageanchor=\"1\"><img border=\"0\" src=\"http://1.bp.blogspot.com/-pr7aFIQAYfM/U6puNuIodqI/AAAAAAAAAmw/g_8EZRI_xk0/s1600/image00.png\" height=\"163\" width=\"400\" /></a> </div><br />Additional capabilities have also been added to the Google Cast SDK. These include: Media Player Library enhancements, bringing easier integration with MPEG-DASH Smooth Streaming, and HLS. We’ve also added WebAudio &amp; WebGL support, made the Cast Companion Library available, and added enhanced Closed Caption support. And coming soon, we will add support for queuing and ID delegation. <br /><br />Ready to get started? Visit <a href=\"http://developer.android.com/tv\">developer.android.com/tv</a> and <a href=\"http://developers.google.com/cast\">developers.google.com/cast</a> for the SDKs, style guides, tutorials, sample code, and the API references. You can also request an ADT-1 devkit to bootstrap your Android TV development.<br /><br /><em style=\"color: #444444; font-family: arial, sans-serif; font-size: 13px; line-height: 20.799999237060547px;\">By Dave Burke and Majd Bakar, Engineering Directors and TV Junkies</em><br /><div style=\"border-top: 1px solid #ddd; clear: both; margin-top: 2em; width: 100%;\"><style>.footer__link, .footer__text{ color: #8b8b8b !important; display: block; font-size: 12px; line-height: 1.33333; margin-bottom: 10px; text-decoration: none; } .hoverable .footer__link:hover { text-decoration: underline; } </style></div>"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "http://blog.chromium.org/feeds/8907043288211181996/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "http://www.blogger.com/comment.g?blogID=2471378914199150966&postID=8907043288211181996",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/8907043288211181996"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/8907043288211181996"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "http://blog.chromium.org/2014/06/cast-away-with-android-tv-and-google.html",
+            "title": "Cast Away with Android TV and Google Cast"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Google Chrome Blog"
+            },
+            "uri": {
+              "$t": "http://www.blogger.com/profile/06394244468194711527"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "http://img2.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "media$thumbnail": {
+          "xmlns$media": "http://search.yahoo.com/mrss/",
+          "url": "http://3.bp.blogspot.com/-LetA0H8RAuo/U6nPib4y96I/AAAAAAAAAmg/niPD190Xg9E/s72-c/io1200px-01.png",
+          "height": "72",
+          "width": "72"
+        },
+        "thr$total": {
+          "$t": "0"
+        },
+        "gd$extendedProperty": [
+          {
+            "name": "commentSource",
+            "value": "1"
+          },
+          {
+            "name": "commentModerationMode",
+            "value": "FILTERED_POSTMOD"
+          }
+        ]
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-2471378914199150966.post-2643891281348915475"
+        },
+        "published": {
+          "$t": "2014-06-19T10:42:00.000-07:00"
+        },
+        "updated": {
+          "$t": "2014-06-19T15:38:49.945-07:00"
+        },
+        "title": {
+          "type": "text",
+          "$t": "Web Fundamentals and Web Starter Kit: Resources for Modern Web Development"
+        },
+        "content": {
+          "type": "html",
+          "$t": "The web is a rich computing platform with unparalleled reach. In recent years, mobile devices have brought the web to billions of new users and introduced many new device capabilities, screen sizes, input methods, and more. To help developers navigate this brave new world, we built <a href=\"https://developers.google.com/web/fundamentals/\">Web Fundamentals</a>, a curated source for modern best practices. Today, we’re making it even easier to build multi-device experiences with the Beta release of the <a href=\"http://developers.google.com/web/starter-kit/\">Web Starter Kit</a>.<br /> <img border=\"0\" style=\"border: none; display: block; margin: auto;\" src=\"http://1.bp.blogspot.com/-YkkQJclDico/U6NlnISWQhI/AAAAAAAAASU/zrIDBTPhuOU/s1600/web-fundamentals-preview-small.png\" height=\"355\" width=\"400\" />Web Fundamentals' guidelines are intended to be <em>fundamental</em> to the platform: useful no matter which framework you choose or which browser your users run. We have articles about <a href=\"https://developers.google.com/web/fundamentals/layouts/\">responsive layouts</a>, <a href=\"https://developers.google.com/web/fundamentals/input/form/\">forms</a>, <a href=\"https://developers.google.com/web/fundamentals/input/touch/\">touch</a>, <a href=\"https://developers.google.com/web/fundamentals/media/\">media</a>, <a href=\"https://developers.google.com/web/fundamentals/performance/\">performance</a>, <a href=\"http://developers.google.com/web/fundamentals/device-access/\">device capabilities</a>, and <a href=\"http://developers.google.com/web/fundamentals/tools/\">setting up </a><a href=\"http://developers.google.com/web/fundamentals/tools/\">a </a><a href=\"http://developers.google.com/web/fundamentals/tools/\">development workflow</a>. Articles cover both coding and design. For example, the <a href=\"https://developers.google.com/web/fundamentals/layouts/rwd-patterns/\">article</a> on layout design patterns explains both the usability tradeoffs between different layout options and how to implement them. The <a href=\"https://developers.google.com/web/fundamentals/performance/\">performance section</a> complements <a href=\"https://developers.google.com/speed/pagespeed/insights/?url=www.google.com\">PageSpeed Insights</a>, an auditing tool that encourages instant (&lt;1 second) mobile web sites.<br /><br /> Designed to help you apply Web Fundamentals' best practices in new projects, <a href=\"http://developers.google.com/web/starter-kit/\">Web Starter Kit</a> is a lightweight boilerplate with templates and tooling. Web Starter Kit gives you responsive layout, a visual style guide, and optional workflow features like performance optimization so you can keep your pages lean and fast.<br /><br /> <img alt=\"Web Starter Kit preview animation\" src=\"https://googledrive.com/host/0BzGgk26K1Cc-NkFQbnpqc184V1k/web-starter-kit.gif\" style=\"border: none; display: block; margin: auto;\" title=\"Web Starter Kit preview animation\" width=\"500px\" /><br />  Both Web Fundamentals and the Web Starter Kit are actively developed and curated by a team of developers from Google and several open-source <a href=\"https://github.com/google/web-starter-kit/graphs/contributors\">contributors</a>. Our <a href=\"http://github.com/google/WebFundamentals\">source</a> <a href=\"http://github.com/Google/web-starter-kit\">code</a> is available on GitHub, and we welcome contributions and feedback. Looking ahead, we’ll be adding new content and working with the web development community to refine our advice. Please <a href=\"https://github.com/google/WebFundamentals/issues\">file an issue</a> or <a href=\"https://github.com/google/WebFundamentals/pulls?direction=desc&amp;page=1&amp;sort=created&amp;state=open\">submit a</a><a href=\"https://github.com/google/WebFundamentals/pulls?direction=desc&amp;page=1&amp;sort=created&amp;state=open\"> pull request</a> to help us capture web development best practices.<br /> <br />We look forward to a more modern, multi-device web!<br /><br /> Posted by Paul Kinlan, Developer Advocate and Web Fundamentalist<br />"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "http://blog.chromium.org/feeds/2643891281348915475/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "http://www.blogger.com/comment.g?blogID=2471378914199150966&postID=2643891281348915475",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/2643891281348915475"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/2643891281348915475"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "http://blog.chromium.org/2014/06/web-fundamentals-and-web-starter-kit.html",
+            "title": "Web Fundamentals and Web Starter Kit: Resources for Modern Web Development"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Google Chrome Blog"
+            },
+            "uri": {
+              "$t": "http://www.blogger.com/profile/06394244468194711527"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "http://img2.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "media$thumbnail": {
+          "xmlns$media": "http://search.yahoo.com/mrss/",
+          "url": "http://1.bp.blogspot.com/-YkkQJclDico/U6NlnISWQhI/AAAAAAAAASU/zrIDBTPhuOU/s72-c/web-fundamentals-preview-small.png",
+          "height": "72",
+          "width": "72"
+        },
+        "thr$total": {
+          "$t": "0"
+        },
+        "gd$extendedProperty": [
+          {
+            "name": "commentSource",
+            "value": "1"
+          },
+          {
+            "name": "commentModerationMode",
+            "value": "FILTERED_POSTMOD"
+          }
+        ]
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-2471378914199150966.post-4872520559318730450"
+        },
+        "published": {
+          "$t": "2014-06-10T11:15:00.000-07:00"
+        },
+        "updated": {
+          "$t": "2014-06-10T11:17:55.894-07:00"
+        },
+        "title": {
+          "type": "text",
+          "$t": "See what your apps & extensions have been up to"
+        },
+        "content": {
+          "type": "html",
+          "$t": "Extensions are a great way to enhance the browsing experience. However, some extensions ask for broad permissions that allow access to sensitive data such as browser cookies or history. Last year, we <a href=\"http://blog.chromium.org/2013/11/introducing-new-chrome-apps-developer.html\">introduced</a> the <a href=\"https://chrome.google.com/webstore/detail/chrome-apps-extensions-de/ohmmkhmmmpcnpikjeljgnaoabkaalbgc\">Chrome Apps &amp; Extensions Developer Tool</a>, which provides an improved developer experience for debugging apps and extensions. The newest version of the tool, available today, lets power users audit any app or extension and get visibility into the precise actions that it's performing.<br /><div style=\"text-align: center;\"><span id=\"docs-internal-guid-35104902-867c-3250-2fab-4cac11ce768b\"><span style=\"font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;\"><img alt=\"Screen Shot 2014-06-09 at 4.06.07 PM.png\" height=\"443\" src=\"https://lh3.googleusercontent.com/47iVS6lrAXpqj5dyCcq8fCWkYk4DLuPG84BoPrsdiC-ugmkoSvLLJcm-PZ3TBqPUXEMlJg5lST69Q75a2RntGIRXT8RoLMCEMBovgMyIKWijZ4BRxzt8dPFp5IDm5nbsyQ\" style=\"-webkit-transform: rotate(0rad); border: none;\" width=\"550\" /></span></span></div>Once you’ve installed the Chrome Apps &amp; Extensions Developer Tool, it will start locally auditing your extensions and apps as you use them. For each app or extension, you can see historical activity over the past few days as well as real-time activity by clicking the “Behavior” link. The tool highlights activities that involve your information, such as reading website cookies or modifying web sites, in a privacy section. You can also search for URLs to see if an extension has modified any matching pages. If you’re debugging an app or extension, you can use the “Realtime” tab to watch the stream of API calls as an extension or app runs. This can help you track down glitches or identify unnecessary API calls.<br /><br />Whether you’re a Chrome power user or a developer testing an extension, the Chrome Apps &amp; Extensions Developer Tool can give you the information you need to understand how apps and extensions affect your browsing.<br /><br />Posted by Adrienne Porter Felt, Software Engineer and Extension Tinkerer<br /><br />"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "http://blog.chromium.org/feeds/4872520559318730450/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "http://www.blogger.com/comment.g?blogID=2471378914199150966&postID=4872520559318730450",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/4872520559318730450"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/4872520559318730450"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "http://blog.chromium.org/2014/06/see-what-your-apps-extensions-have-been.html",
+            "title": "See what your apps & extensions have been up to"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Google Chrome Blog"
+            },
+            "uri": {
+              "$t": "http://www.blogger.com/profile/06394244468194711527"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "http://img2.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "thr$total": {
+          "$t": "0"
+        },
+        "gd$extendedProperty": [
+          {
+            "name": "commentSource",
+            "value": "1"
+          },
+          {
+            "name": "commentModerationMode",
+            "value": "FILTERED_POSTMOD"
+          }
+        ]
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-2471378914199150966.post-4380323447485945911"
+        },
+        "published": {
+          "$t": "2014-06-03T07:01:00.000-07:00"
+        },
+        "updated": {
+          "$t": "2014-06-03T07:03:14.446-07:00"
+        },
+        "title": {
+          "type": "text",
+          "$t": "Try out the new 64-bit Windows Canary and Dev channels"
+        },
+        "content": {
+          "type": "html",
+          "$t": "Today we’re announcing the addition of 64-bit support to Chrome, with two brand new 64-bit Dev and Canary channels for Windows 7 and 8 users, giving a faster and more secure browsing experience. To try it out, download the 64-bit installer from our <a href=\"https://www.google.com/intl/en/chrome/browser/canary.html\">Canary</a> or <a href=\"https://www.google.com/chrome/browser/index.html?extra=devchannel\">Dev</a> download pages. The new version replaces the existing version while preserving all your settings and bookmarks, so there’s no need to uninstall a current installation of Chrome.<br /><br />The majority of our users on Windows 7 or higher now have systems capable of running 64-bit applications, and this version of Chrome can take full advantage of these newer capabilities. This includes several improvements that align perfectly with Chrome’s <a href=\"http://www.chromium.org/developers/core-principles\">core principles</a> of speed, security and stability:<br /><ul><li><b>Speed</b>: 64-bit allows us to take advantage of the latest processor and compiler optimizations, a more modern instruction set, and a calling convention that allows more function parameters to be passed quickly by registers. As a result, speed is improved, especially in graphics and multimedia content, where we see an average 25% improvement in performance.</li></ul><ul><li><b>Security</b>: With Chrome able to take advantage of the latest OS features such as <a href=\"http://blogs.technet.com/b/srd/archive/2013/12/11/software-defense-mitigating-common-exploitation-techniques.aspx\">High Entropy ASLR</a> on Windows 8, security is improved on 64-bit platforms as well. Those extra bits also help us better defend against exploitation techniques such as JIT spraying, and improve the effectiveness of our existing security defense features like heap partitioning.</li></ul><ul><li><b>Stability</b>: Finally, we’ve observed a marked increase in stability for 64-bit Chrome over 32-bit Chrome. In particular, crash rates for the the renderer process (i.e. web content process) are almost half that of 32-bit Chrome.</li></ul>We encourage all our users, especially developers, to give the new 64-bit Chrome a spin, and we’re looking forward to hearing your <a href=\"https://code.google.com/p/chromium/issues/entry?labels=Arch-x86_64,Type-?,Pri-2,OS-Windows&amp;summary=Win64:%20Feedback\">feedback</a> so we can make 64-bit Chrome work great and bring its benefits to our Beta and Stable channel users.<br /><br />Posted by Will Harris, Software Engineer and Stretcher of Pointers<br /><div><br /></div>"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "http://blog.chromium.org/feeds/4380323447485945911/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "http://www.blogger.com/comment.g?blogID=2471378914199150966&postID=4380323447485945911",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/4380323447485945911"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/4380323447485945911"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "http://blog.chromium.org/2014/06/try-out-new-64-bit-windows-canary-and.html",
+            "title": "Try out the new 64-bit Windows Canary and Dev channels"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Google Chrome Blog"
+            },
+            "uri": {
+              "$t": "http://www.blogger.com/profile/06394244468194711527"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "http://img2.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "thr$total": {
+          "$t": "0"
+        },
+        "gd$extendedProperty": [
+          {
+            "name": "commentSource",
+            "value": "1"
+          },
+          {
+            "name": "commentModerationMode",
+            "value": "FILTERED_POSTMOD"
+          }
+        ]
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-2471378914199150966.post-6451029394144920441"
+        },
+        "published": {
+          "$t": "2014-05-27T11:30:00.001-07:00"
+        },
+        "updated": {
+          "$t": "2014-05-27T13:14:32.866-07:00"
+        },
+        "title": {
+          "type": "text",
+          "$t": "Update on NPAPI Deprecation"
+        },
+        "content": {
+          "type": "html",
+          "$t": "<p>Last September, we <a href=\"http://blog.chromium.org/2013/09/saying-goodbye-to-our-old-friend-npapi.html\">announced</a> our plan to remove NPAPI support from Chrome by the end of 2014. This change will improve Chrome’s security, speed, and stability as well as reduce complexity in the code base. Over the last few quarters, we’ve been encouraged to see an overall 12.9% drop in per-user instantiations of NPAPI plug-ins and declining usage of the most popular NPAPI plug-ins:</p><div style=\"text-align: center\"><p style=\"font-weight: bold;\">Monthly Plug-In Launch Percentage</p><table style=\"margin-left: auto; margin-right: auto; padding: 5px; text-align: right; border: 1px solid lightgray;\">  <tr>    <td></td>    <td>Sept 2013</td>    <td>May 2014 </td>  </tr>  <tr>    <td>Silverlight</td>    <td>15</td>    <td>13.3</td>  </tr>  <tr>    <td>Google Earth</td>    <td>9.1</td>    <td>0.1</td>  </tr>  <tr>    <td>Unity</td>    <td>9.1</td>    <td>3.1</td>  </tr>  <tr>    <td>Google Talk</td>    <td>8.7</td>    <td>8.7</td>  </tr>  <tr>    <td>Java</td>    <td>8.9</td>    <td>7.2</td>  </tr>  <tr>    <td>Facebook</td>    <td>6</td>    <td>4.2</td>  </tr></table><p style=\"color: gray;\"><em>We are actively helping still-popular NPAPI-based <br>services migrate to open-web-based alternatives.</em></p></div><p>Deprecation has proceeded as scheduled. As of September 23rd, 2013, the Chrome Web Store <a href=\"http://blog.chromium.org/2013/09/saying-goodbye-to-our-old-friend-npapi.html\">no longer</a> accepts NPAPI-based Apps and Extensions. Webpage-instantiated NPAPI plug-ins have been blocked by default since January 2014 using <a href=\"https://a77db9aa-a-7b23c8ea-s-sites.googlegroups.com/a/chromium.org/dev/developers/npapi-deprecation/Screen%20Shot%202013-12-03%20at%2010.10.16%20AM.png?attachauth=ANoY7crHJ6iRlPFgCmZltCKnogHwc5-8cmgro36BLTL0IqejXcLlIMaxMDtbjzB9MgJCA8LCrV7aLpbBqVf9hKCUiULJuka3iyEnsaVRdwUOx6K5z_vd5XRmNkJ82y6Hwf01VgTvYrRerDr6cD2UDdNhOgHzgLY2HcFOkSWWt6lWQaRRRsIqJgTZz2s8VgBpyr-yVxSSmdA2MQ5u42spDBsfVCoqwE9cXzlluK9Bzodqe_tKudW8XoIpuJxR1MC7Y3FemdCl0mDGHHfRjqgwp5F5HupEy5Nn2w%3D%3D&amp;attredirects=0\">the infobar UI</a>. NPAPI support was <a href=\"https://groups.google.com/a/chromium.org/d/msg/chromium-dev/xEbgvWE7wMk/D_07G2lftacJ\">removed</a> from Linux in Chrome 35.</p> <p>To further prepare users and developers for complete removal, we’ll be making two more updates in the coming weeks. Starting today, the Chrome Web Store will no longer show NPAPI-based Apps and Extension on the home page, search results, and category pages. In Chrome 37, webpage-instantiated NPAPI plug-ins will be blocked using the <a href=\"https://sites.google.com/a/chromium.org/dev/developers/npapi-deprecation?pli=1\">harder-to-bypass page-action blocking UI</a>.</p> <p>Most use cases that previously required NPAPI are <a href=\"http://www.chromium.org/developers/npapi-deprecation\">now</a> supported by JavaScript-based open web technologies. For the few applications that need low-level APIs, threads, and machine-optimized code, <a href=\"http://www.gonacl.com/\">Native Client</a> offers the ability to run sandboxed native code in Chrome. To help ease the transition from NPAPI, NaCl recently exposed two new Pepper APIs for media playback and processing. The <a href=\"https://codereview.chromium.org/212533007\">MediaStreams API</a> enables low latency multimedia playback, and the <a href=\"https://codereview.chromium.org/270213004/\">Hardware Decode API</a> enables efficient video decoding.</p> <p>For more information, please see the <a href=\"http://www.chromium.org/developers/npapi-deprecation\">developer NPAPI deprecation guide</a>. We look forward to the transition to a safer, more mobile-friendly web.</p><br><span class=\"post-author\">Posted by Justin Schuh, Software Engineer and Plug-in Retirement Planner</span>"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "http://blog.chromium.org/feeds/6451029394144920441/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "http://www.blogger.com/comment.g?blogID=2471378914199150966&postID=6451029394144920441",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/6451029394144920441"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/6451029394144920441"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "http://blog.chromium.org/2014/05/update-on-npapi-deprecation.html",
+            "title": "Update on NPAPI Deprecation"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Google Chrome Blog"
+            },
+            "uri": {
+              "$t": "http://www.blogger.com/profile/06394244468194711527"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "http://img2.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "thr$total": {
+          "$t": "0"
+        },
+        "gd$extendedProperty": [
+          {
+            "name": "commentSource",
+            "value": "1"
+          },
+          {
+            "name": "commentModerationMode",
+            "value": "FILTERED_POSTMOD"
+          }
+        ]
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-2471378914199150966.post-6893273357058799026"
+        },
+        "published": {
+          "$t": "2014-05-22T09:59:00.000-07:00"
+        },
+        "updated": {
+          "$t": "2014-07-17T08:55:36.988-07:00"
+        },
+        "title": {
+          "type": "text",
+          "$t": "Chrome 36 Beta: element.animate(), HTML Imports, and Object.observe()"
+        },
+        "content": {
+          "type": "html",
+          "$t": "Today’s Chrome <a href=\"https://www.google.com/landing/chrome/beta/\">Beta</a> channel release includes several new developer features to help you make richer, more compelling web content and apps, especially for mobile devices. Unless otherwise noted, changes described below apply to Chrome for Android, Windows, Mac, Linux, and Chrome OS.<br /><strong>element.animate()</strong><br />The forthcoming <a href=\"http://updates.html5rocks.com/2014/05/Web-Animations---element-animate-is-now-in-Chrome-36\">Web Animations JavaScript API</a> lets you animate web content from script. The element.animate() function included in today’s Beta is the first part of the API to ship in Chrome: it makes it possible to create simple CSS Animations using JavaScript. This means that animations can be dynamically generated without paying <a href=\"http://www.html5rocks.com/en/tutorials/speed/high-performance-animations/\">a CSS style recalculation cost</a>. Animations created in this way are also cancelable and provide guaranteed end events (in contrast, CSS Transitions only generate events if they cause a style change).  Here's an example of how you'd use it:<br /><pre><code>elem.animate([<br />    {transform: 'translateX(0px)'},<br />    {transform: 'translateX(100px)'}<br />], 3000);</code></pre><strong>HTML Imports</strong><br /><a href=\"http://www.html5rocks.com/en/tutorials/webcomponents/imports/\">HTML Imports</a>, part of the <a href=\"http://www.w3.org/TR/components-intro/#introduction\">Web Components standards umbrella</a>, offer a way to include HTML documents in other HTML documents using <code>&lt;link rel=\"import\"&gt;</code>:<br /><pre><code>&lt;head&gt;<br />  &lt;link rel=\"import\" href=\"/path/to/imports/stuff.html\"&gt;<br />&lt;/head&gt;</code></pre>An HTML Import can contain CSS, JavaScript, HTML, or anything else an .html file can include. This means they provide a convention for bundling related HTML/CSS/JS (even other HTML Imports) into a single package, making them a fantastic tool for delivering Web Components to users.<br /><strong>Data-binding with Object.observe()</strong><br /><a href=\"http://www.html5rocks.com/en/tutorials/es7/observe/\">Object.observe()</a> lets you observe changes to JavaScript objects. You can define a callback that observes multiple objects and will receive all changes to any objects in a single asynchronous call. This is especially useful for <a href=\"http://www.polymer-project.org/\">framework authors implementing data-binding</a>.<br /><pre><code>// Let's say we have a model with data<br />var model = {};<br /><br />// Which we then observe<br />Object.observe(model, function(changes) {<br /><br />    // This asynchronous callback runs and aggregates changes<br />    changes.forEach(function(change) {<br /><br />        // Letting us know what changed<br />        console.log(change.type, change.name, change.oldValue);<br />    });<br /><br />});</code></pre><strong>Other updates in this release</strong><br /><ul><li>Chrome <a href=\"http://updates.html5rocks.com/2014/05/A-More-Compatible-Smoother-Touch\">no longer sends touchcancel on touch scroll</a>, improving compatibility with other browsers and making it possible to add touch UI effects like pull-to-refresh without re-implementing scrolling and fling physics in JavaScript.</li><li>Some CSS properties such as scrollTop and offsetHeight will <a href=\"https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/_Q7A4AQBFKY\">now</a> return fractional values in browser-zoom situations.</li><li>The new <a href=\"https://groups.google.com/a/chromium.org/forum/#!topic/chromium-dev/j27Ou4RtvQI/discussion\">WOFF 2.0</a> Web Font compression format offers a 30% average gain over WOFF 1.0 (up to 50%+ in some cases).</li><li><a href=\"https://plus.google.com/+RickByers/posts/CBCmhVttj5C\">DevTools now faithfully emulates touch with mouse</a>, allowing you to test touch interactions on Chrome for Android using the mobile emulation feature of DevTools.</li><li><a href=\"https://code.google.com/p/chromium/issues/detail?id=154772\">Unprefixed CSS Transforms</a> enables rich web content by allowing elements to be transformed in two-dimensional or three-dimensional space.</li><li>The <a href=\"http://dev.opera.com/articles/css-will-change-property/\">will-change</a> property allows developers to give a hint about which properties are about to change, which can help reduce delays at the beginning of animations in some cases.</li></ul>As always, visit <a href=\"http://chromestatus.com/features\">chromestatus.com/features</a> for a complete overview of Chrome’s developer features, and circle <a href=\"https://plus.google.com/+GoogleChromeDevelopers\">+Google Chrome Developers</a> for more frequent updates!<br />Posted by Shane Stephens and Doug Stockwell, Animated Software Engineers"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "http://blog.chromium.org/feeds/6893273357058799026/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "http://www.blogger.com/comment.g?blogID=2471378914199150966&postID=6893273357058799026",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/6893273357058799026"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/6893273357058799026"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "http://blog.chromium.org/2014/05/chrome-36-beta-elementanimate-html.html",
+            "title": "Chrome 36 Beta: element.animate(), HTML Imports, and Object.observe()"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Google Chrome Blog"
+            },
+            "uri": {
+              "$t": "http://www.blogger.com/profile/06394244468194711527"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "http://img2.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "thr$total": {
+          "$t": "0"
+        },
+        "gd$extendedProperty": [
+          {
+            "name": "commentSource",
+            "value": "1"
+          },
+          {
+            "name": "commentModerationMode",
+            "value": "FILTERED_POSTMOD"
+          }
+        ]
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-2471378914199150966.post-6804681613820812567"
+        },
+        "published": {
+          "$t": "2014-04-21T10:16:00.000-07:00"
+        },
+        "updated": {
+          "$t": "2014-04-21T11:00:51.995-07:00"
+        },
+        "title": {
+          "type": "text",
+          "$t": "Testing Chromium: ThreadSanitizer v2, a next-gen data race detector"
+        },
+        "content": {
+          "type": "html",
+          "$t": "In 2009, we developed <a href=\"http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/35604.pdf\">ThreadSanitizer</a> (aka TSan), a runtime <a href=\"http://en.wikipedia.org/wiki/Data_race\">data race</a> detector based on <a href=\"http://en.wikipedia.org/wiki/Binary_translation\">binary translation</a>. The tool helped find thousands of threading errors in various projects, including <a href=\"https://code.google.com/p/chromium/issues/list?can=1&amp;q=Stability%3DThreadSanitizer+race+-v2+-status%3Dduplicate&amp;sort=opened+modified&amp;colspec=ID+Pri+M+Iteration+ReleaseBlock+Cr+Status+Owner+Summary+OS+Modified+Opened&amp;x=m&amp;y=releaseblock&amp;cells=tiles\">almost 180</a> bugs in Chromium. In 2010, we started experimenting with compiler-based instrumentation instead of binary translation, and once the approach had proven itself, our team redesigned ThreadSanitizer from scratch, focusing on compile-time instrumentation for greater speed and accuracy.  <br /><br />The new tool, <a href=\"https://code.google.com/p/thread-sanitizer/\">ThreadSanitizer v2</a>, is now part of both <a href=\"http://llvm.org/\">LLVM</a> and <a href=\"http://gcc.gnu.org/\">GCC</a>. Not only is it able to detect data races in C++ and <a href=\"http://golang.org/\">Go</a> code, but it is also able to report synchronization issues like deadlocks, unjoined threads, destroying locked mutexes, use of async-signal unsafe code in signal handlers, and others.   <br /><br />ThreadSanitizer v2 recognizes atomic operations, so it produces far more accurate reports and can also find bugs in lock-free algorithms, which are hard to detect otherwise. For example, it has helped us find <a href=\"http://crbug.com/82122\">incorrect synchronization in LazyInstance</a>, <a href=\"http://crbug.com/249750\">incorrect lock-free queue implementation</a>, and <a href=\"http://crbug.com/330528\">issues with concurrent sweeping in V8</a>.  <br /><br />The new version is up to 20 times faster than the old ThreadSanitizer, which makes it possible to use it for heavyweight browser tests. Thanks to this, we’ve found several bugs in code that wasn’t covered by smaller unit tests, like <a href=\"http://crbug.com/223955\">races</a> <a href=\"http://crbug.com/351292\">on the WebKit strings</a>, <a href=\"http://crbug.com/347559\">garbage collection in Blink</a>, <a href=\"http://crbug.com/265889\">a use-after-free in Blink</a>, <a href=\"https://code.google.com/p/chromium/issues/list?can=1&amp;q=Stability%3DThreadSanitizer++Cr%3DBlink-WebRTC+&amp;colspec=ID+Pri+M+Iteration+ReleaseBlock+Cr+Status+Owner+Summary+OS+Modified&amp;x=m&amp;y=releaseblock&amp;cells=tiles\">a handful of reports in WebRTC</a> and many more. This has also improved bug reproducibility: the more times the test is repeated, the higher the chance to reproduce a flaky bug.  <br /><br />Over the last half-year almost 100 bugs were detected by the new tool, and we’re actively working on more. Our future plans include extensive use of TSan on <a href=\"http://blog.chromium.org/2012/04/fuzzing-for-security.html\">ClusterFuzz</a> and adding regular testing for various Chromium subprojects to catch new regressions quickly.  <br /><br />The <a href=\"https://code.google.com/p/thread-sanitizer/wiki/CppManual\">ThreadSanitizer page</a> contains all of the information necessary to start using the tool in your project. The tool is easy to use and can be integrated with any buildsystem: just add a single compile-time flag and run the program to see the error reports. For Chromium developers there’s a special <a href=\"http://dev.chromium.org/developers/testing/threadsanitizer-tsan-v2\">page</a> with instructions on <a href=\"http://dev.chromium.org/\">dev.chromium.org</a>.  <br /><br />Posted by Alexander Potapenko, Software Engineer and Synchronization Lookout "
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "http://blog.chromium.org/feeds/6804681613820812567/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "http://www.blogger.com/comment.g?blogID=2471378914199150966&postID=6804681613820812567",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/6804681613820812567"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/6804681613820812567"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "http://blog.chromium.org/2014/04/testing-chromium-threadsanitizer-v2.html",
+            "title": "Testing Chromium: ThreadSanitizer v2, a next-gen data race detector"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Google Chrome Blog"
+            },
+            "uri": {
+              "$t": "http://www.blogger.com/profile/06394244468194711527"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "http://img2.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "thr$total": {
+          "$t": "0"
+        },
+        "gd$extendedProperty": [
+          {
+            "name": "commentSource",
+            "value": "1"
+          },
+          {
+            "name": "commentModerationMode",
+            "value": "FILTERED_POSTMOD"
+          }
+        ]
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-2471378914199150966.post-5543782418628976310"
+        },
+        "published": {
+          "$t": "2014-04-10T09:54:00.000-07:00"
+        },
+        "updated": {
+          "$t": "2014-05-20T07:58:07.451-07:00"
+        },
+        "title": {
+          "type": "text",
+          "$t": "Chrome 35 Beta: More developer control over touch input, new JavaScript features, and unprefixed Shadow DOM"
+        },
+        "content": {
+          "type": "html",
+          "$t": "Today’s Chrome <a href=\"https://www.google.com/landing/chrome/beta/\">Beta</a> channel release includes a slew of new developer features to help you make richer, more compelling web content and apps, especially for mobile devices. Unless otherwise noted, changes described below apply to Chrome for Android, Windows, Mac, Linux, and Chrome OS.<br /><br /><b>More developer control over touch and zoom input</b><br /><br />The <a href=\"https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/sc5lHnlcLvM\">touch-action CSS property</a> offers developers a declarative mechanism to selectively disable touch scrolling, pinch-zooming, or double-tap-zooming on parts of their web content. Use cases include precise control over the dreaded <a href=\"http://updates.html5rocks.com/2013/12/300ms-tap-delay-gone-away\">300ms click delay on mobile</a>, reliable side-swipe UIs, and high-fidelity <a href=\"http://www.polymer-project.org/platform/pointer-events.html\">polyfills of Pointer Events</a>. It’s also a prerequisite for future optimizations to enable scrolling and zooming that never block on <a href=\"http://dev.chromium.org/developers/design-documents/compositor-thread-architecture\">the main thread</a>. Update May 20th: touch-action has been <a href=\"http://code.google.com/p/chromium/issues/detail?id=258459\">delayed</a> until Chrome 36.<br /><br />Also new in this release, web content on desktop computers will now receive <a href=\"https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/BW4hshtMsmo\">mouse scroll wheel events with the ctrlKey modifier set</a>. There are many sites that want to do something more appropriate for the user than trigger browser zoom. For example, when a user holds control and scrolls over a map in Google Maps, they almost certainly want to zoom in on the map, not invoke browser zoom to zoom the page. This change will enable such a use case.<br /><br /><b>New JavaScript functionality</b><br /><br />Chrome 35 includes support for a number of new JavaScript features defined in the <a href=\"https://wiki.mozilla.org/ES6_plans\">ECMAScript 6 standard</a>. Together, they will help JavaScript developers write application logic that is easier to read, more powerful, and more memory efficient. <br /><br />A <a href=\"http://www.html5rocks.com/en/tutorials/es6/promises/#toc-async\">Promise</a> represents a value that may not be available yet but will be known at some point in future. With Promises, you can write cleaner asynchronous code. <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap\">WeakMaps</a> and <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet\">WeakSets</a> allow you to create efficient, garbage-collected data structures. In both, references to objects are held weakly: if there is no other reference to an object stored in the WeakSet, it can be garbage collected. This helps avoid memory leaks.<br /><br /><a href=\"http://updates.html5rocks.com/2012/11/Respond-to-change-with-Object-observe\">Object.observe</a> lets you observe changes to JavaScript objects. Your callback can observe multiple objects and will receive all changes to any objects in a single asynchronous call. This is especially useful for <a href=\"http://www.polymer-project.org/\">framework authors implementing data-binding</a>.<br /><br />Update April 29th: Object.observe has been pushed back to Chrome 36.<br /><br /><b>Unprefixed Shadow DOM</b><br /><br />Shadow DOM is one of several new API primitives landing under the <a href=\"http://w3c.github.io/webcomponents/explainer/\">Web Components</a> umbrella. It brings reliable composition of user interface elements to the web platform and allow developers to:<br /><ol><li>Scope their HTML markup, CSS, hiding the implementation details of complex components. </li><li>Build their own first-class elements and APIs just like the &lt;video&gt; or &lt;audio&gt;, when combined with <a href=\"http://www.html5rocks.com/en/tutorials/webcomponents/customelements/\">Custom Elements</a></li></ol>With Shadow DOM, web frameworks can stop worrying about their widgets inadvertently breaking pages by using conflicting CSS selectors, class or id names, and start relying on DOM as the interoperable way of building components.<br /><br />Numerous improvements and changes have been made to the specification since the days of the prefixed implementation of Shadow DOM <a href=\"http://blog.chromium.org/2013/01/content-security-policy-and-shadow-dom.html\">made available in Chrome 25</a>, so if you were already using the prefixed Shadow DOM API please take a look at the latest documentation as well as the up-to-date <a href=\"http://www.html5rocks.com/en/tutorials/?page=1\">HTML5 Rocks articles</a> and look for deprecation warnings.<br /><br /><b>Other new features in this release</b><br /><ul><li><a href=\"https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/kWkdUACnPn4/G_ZLiuQcwFoJ\">CSS Font Loading</a> can be used to dynamically load font resources. It gives developers more control over the user experience on pages that use Web Fonts. For instance, you can ask Chrome to start downloading the web fonts you'll need on demand and be notified when they become available. </li><li>The SVG <a href=\"http://crbug.com/343496\">'paint-order' property</a> offers a way to control the order in which fill, stroke and markers are painted. </li><li>The unprefixed version of the <a href=\"http://www.html5rocks.com/en/tutorials/webaudio/intro/\">Web Audio API</a>. </li></ul><b>Removed features</b><br /><br />Web platform feature deprecation and removal are important for the health of the web. Removing features allows browser vendors like Chromium to simplify our codebases, minimize security attack surfaces, and, most importantly, evolve the web API surface to address the needs of today’s users and developers.<br /><br />Features removed in this release include <a href=\"https://groups.google.com/a/chromium.org/d/msg/blink-dev/Bxe7DnDVRZ0/5K61HQPrNK4J\">HTMLVideoElement-specific prefixed fullscreen API</a>, <a href=\"https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/R34xpMQGtXU/XwXsi85Y7acJ\">TextTrackCue constructor</a>, <a href=\"https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/14q_I06gwg8/0a3JI0kjbC0J\">&lt;isindex&gt;</a>, <a href=\"https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/8vqyfHa8_dw/4W2v9QTAinYJ\">Legacy Web Notifications</a>,  <a href=\"https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/8p-gwWL4ypc/RJaJYAu6_ccJ\">document.createAttributeNS</a>, <a href=\"https://groups.google.com/a/chromium.org/d/topic/chromium-dev/xEbgvWE7wMk\">support for NPAPI on Linux</a>, and <a href=\"https://groups.google.com/a/chromium.org/d/msg/blink-dev/ai6_ySyVITg/Zff4AYrxQ-4J\">Attr.isId, ownerElement, prefix setter</a>. If you’d like to hear more about these changes or participant in discussions, please chime in our <a href=\"https://groups.google.com/a/chromium.org/d/forum/blink-dev\">mailing list</a> and look for \"Intent to Remove\" or “Intent to Deprecate” threads.<br /><br /><b>Recently deprecated features</b><br /><br />The most prominent recently deprecated feature is <a href=\"https://groups.google.com/a/chromium.org/d/msg/blink-dev/xh9fPX0ijqk/ixHZCOH6GLgJ\">window.showModalDialog</a>, which will be removed in our next release, Chrome 36. Please read <a href=\"http://dev.opera.com/articles/view/showmodaldialog/\">Opera’s explanation of the change</a> to learn more. Other deprecated features include <a href=\"https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/jS7iCEmoWfQ/bbHtaV54iBkJ\">Element.setAttributeNodeNS</a>, <a href=\"https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/yBr6Aw3UokU/MPSHNg-H068J\">overflowchanged Event</a>, <a href=\"https://groups.google.com/a/chromium.org/d/msg/blink-dev/L5h6KP5nmbE/CGlSWugrFl0J\">HTMLSourceElement.media,</a> <a href=\"https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/C3h1LApSVx8/G2s2OV5azvgJ\">MediaError.MEDIA_ERR_ENCRYPTED</a>, <a href=\"https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/6CEtU6nhcS4/2fzhpRi8d98J\">Prefixed media source extensions</a>, and <a href=\"https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/nNsZDn_utUc/dUtD3ulsFMkJ\">webkitRequestAnimationFrame</a>. Support for these features will be completely removed from Chrome in a future release.<br /><br />As always, visit <a href=\"http://chromestatus.com/features\">chromestatus.com/features</a> for a complete overview of Chrome’s developer features, and circle <a href=\"https://plus.google.com/+GoogleChromeDevelopers\">+Google Chrome Developers</a> for more frequent updates!<br /><br />Posted by <a href=\"http://plus.google.com/+RickByers\">Rick Byers</a>, Software Engineer and Touch API Tamer"
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "http://blog.chromium.org/feeds/5543782418628976310/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "http://www.blogger.com/comment.g?blogID=2471378914199150966&postID=5543782418628976310",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/5543782418628976310"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/5543782418628976310"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "http://blog.chromium.org/2014/04/chrome-35-beta-more-developer-control.html",
+            "title": "Chrome 35 Beta: More developer control over touch input, new JavaScript features, and unprefixed Shadow DOM"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Google Chrome Blog"
+            },
+            "uri": {
+              "$t": "http://www.blogger.com/profile/06394244468194711527"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "http://img2.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "thr$total": {
+          "$t": "0"
+        },
+        "gd$extendedProperty": [
+          {
+            "name": "commentSource",
+            "value": "1"
+          },
+          {
+            "name": "commentModerationMode",
+            "value": "FILTERED_POSTMOD"
+          }
+        ]
+      },
+      {
+        "id": {
+          "$t": "tag:blogger.com,1999:blog-2471378914199150966.post-3370218707971575133"
+        },
+        "published": {
+          "$t": "2014-04-09T09:06:00.000-07:00"
+        },
+        "updated": {
+          "$t": "2014-04-09T09:06:40.523-07:00"
+        },
+        "title": {
+          "type": "text",
+          "$t": "Dart improves async and server-side performance"
+        },
+        "content": {
+          "type": "html",
+          "$t": "Today's release of the <a href=\"http://news.dartlang.org/2014/04/dart-13-dramatically-improves-server.html\">Dart SDK version 1.3</a> includes a 2x performance improvement for asynchronous Dart code combined with server-side I/O operations. This puts Dart in the same league as popular server-side runtimes and allows you to build high-performance server-side Dart VM apps.  <br /><br />We <a href=\"https://www.dartlang.org/performance/io/\">measured</a> request-per-second improvements using three simple HTTP benchmarks: <a href=\"https://github.com/dart-lang/ton80/blob/master/lib/src/Serve/dart/server.dart\">Hello, File, and JSON</a>. Hello, which improved by 130%, provides a measure for how many basic connections an HTTP server can handle, by simply measuring an HTTP server responding with a fixed string. The File benchmark, which simulates the server accessing and serving static content, improved by nearly 30%. Finally, as a proxy for performance of REST apps, the JSON benchmark nearly doubled in throughput. In addition to great performance, another benefit of using Dart on the server is that it allows you to use the same language and libraries on both the client and server, reducing mental context switches and improving code reuse.   <br /><br /><table align=\"center\" cellpadding=\"0\" cellspacing=\"0\" class=\"tr-caption-container\" style=\"margin-left: auto; margin-right: auto; text-align: center;\"><tbody><tr><td style=\"text-align: center;\"><a href=\"http://1.bp.blogspot.com/-_TwTvVzXRcE/U0VuLOh8cMI/AAAAAAAAAQ4/AaixrIqmbMA/s1600/Dart+perf.png\" imageanchor=\"1\" style=\"margin-left: auto; margin-right: auto;\"><img border=\"0\" src=\"http://1.bp.blogspot.com/-_TwTvVzXRcE/U0VuLOh8cMI/AAAAAAAAAQ4/AaixrIqmbMA/s1600/Dart+perf.png\" height=\"297\" width=\"484\" /></a></td></tr><tr><td class=\"tr-caption\" style=\"text-align: center;\"><span id=\"docs-internal-guid-5f93b0cc-4736-bd6b-5092-2f9f813ab6af\"></span><br /><div dir=\"ltr\" style=\"line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;\"><span id=\"docs-internal-guid-5f93b0cc-4736-bd6b-5092-2f9f813ab6af\"><span style=\"background-color: white; color: #222222; font-family: Arial; font-size: 11px; font-style: italic; vertical-align: baseline; white-space: pre-wrap;\">The data for the chart above was collected on a Ubuntu 12.04.4 LTS machine with 8GB RAM and a Intel(R) Core(TM) i5-2400 CPU, running a single-isolate server on Dart VM version 1.1.3, 1.2.0 and 1.3.0-dev.7.5. The </span><a href=\"https://github.com/dart-lang/ton80/tree/master/lib/src/Serve/dart\" style=\"text-decoration: none;\"><span style=\"background-color: white; color: #1155cc; font-family: Arial; font-size: 11px; font-style: italic; text-decoration: underline; vertical-align: baseline; white-space: pre-wrap;\">source</span></a><span style=\"background-color: white; color: #222222; font-family: Arial; font-size: 11px; font-style: italic; vertical-align: baseline; white-space: pre-wrap;\"> for the benchmarks is available.</span></span></div><span id=\"docs-internal-guid-5f93b0cc-4736-bd6b-5092-2f9f813ab6af\"><div><br /></div></span></td></tr></tbody></table>We are excited about these initial results, and we anticipate continued improvements for server-side Dart VM apps. If you're interested in learning how to build a web server with Dart, check out the new <a href=\"https://www.dartlang.org/docs/tutorials/httpserver/\">Write HTTP Clients and Servers</a> tutorial and explore the <a href=\"https://www.dartlang.org/docs/serverguide.html\">programmer's guide to command-line apps with Dart</a>. We hope to see what you build in our <a href=\"http://g.co/dartisans\">Dartisans G+ community</a>.  <br /><br />Written by Anders Johnsen, Speed Obsessed Software Engineer "
+        },
+        "link": [
+          {
+            "rel": "replies",
+            "type": "application/atom+xml",
+            "href": "http://blog.chromium.org/feeds/3370218707971575133/comments/default",
+            "title": "Post Comments"
+          },
+          {
+            "rel": "replies",
+            "type": "text/html",
+            "href": "http://www.blogger.com/comment.g?blogID=2471378914199150966&postID=3370218707971575133",
+            "title": "0 Comments"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/3370218707971575133"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "http://www.blogger.com/feeds/2471378914199150966/posts/default/3370218707971575133"
+          },
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "http://blog.chromium.org/2014/04/dart-improves-async-and-server-side.html",
+            "title": "Dart improves async and server-side performance"
+          }
+        ],
+        "author": [
+          {
+            "name": {
+              "$t": "Google Chrome Blog"
+            },
+            "uri": {
+              "$t": "http://www.blogger.com/profile/06394244468194711527"
+            },
+            "email": {
+              "$t": "noreply@blogger.com"
+            },
+            "gd$image": {
+              "rel": "http://schemas.google.com/g/2005#thumbnail",
+              "width": "16",
+              "height": "16",
+              "src": "http://img2.blogblog.com/img/b16-rounded.gif"
+            }
+          }
+        ],
+        "media$thumbnail": {
+          "xmlns$media": "http://search.yahoo.com/mrss/",
+          "url": "http://1.bp.blogspot.com/-_TwTvVzXRcE/U0VuLOh8cMI/AAAAAAAAAQ4/AaixrIqmbMA/s72-c/Dart+perf.png",
+          "height": "72",
+          "width": "72"
+        },
+        "thr$total": {
+          "$t": "0"
+        },
+        "gd$extendedProperty": [
+          {
+            "name": "commentSource",
+            "value": "1"
+          },
+          {
+            "name": "commentModerationMode",
+            "value": "FILTERED_POSTMOD"
+          }
+        ]
+      }
+    ]
+  },
+  "feed&callback=angular.callbacks._0&callback=angular.callbacks._0": [],
+  "feed&callback=angular.callbacks._0": []
+}

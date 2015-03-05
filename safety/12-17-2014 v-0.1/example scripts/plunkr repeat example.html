@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html ng-App="plunker">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>AngularJS Plunker</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.2/angular.js"></script>
+    <script src="app.js"></script>
+  </head>
+
+  <body ng-controller="MainCtrl">
+
+    <h1>{{table.name}}</h1>
+    <table>
+
+      <tr>
+        <th></th>
+        <th>Event Name</th>
+        <th>Distance</th>
+        <th>Date</th>
+        <th>Time</th>
+
+      </tr>
+
+      <tr ng-repeat="rows in table._embedded.events">
+
+        <td>
+          {{rows.id}}
+        </td>
+        <td>
+          <span ng-hide="editMode">{{rows._embedded.event.name}}</span>
+          <select ng-show="editMode" ng-model="shift" ng-options="item._embedded.event.name for item in rows._embedded.alternate">
+            <option value="">Select an alternate event...</option>
+          </select>
+        </td>
+
+        <td>
+          <span ng-hide="editMode">{{rows._embedded.event.distance}}</span>
+
+          <!-- How do you access the "alternate" array? -->
+          <span ng-show="editMode">{{rows._embedded.alternate._embedded.event.distance</span>
+        </td>
+
+        <td>
+          {{rows._embedded.event.date}}
+        </td>
+
+        <td>
+          {{rows._embedded.event.time}}
+        </td>
+
+        <td>
+
+          <!-- How do you disable the other edit button when you're editing one row? -->
+          <button ng-hide="editMode" ng-click="editMode = true">Edit</button>
+          <button ng-show="editMode" ng-click="editMode = false">Cancel</button>
+          <button ng-show="editMode" ng-click="editMode = false">Save</button>
+        </td>
+
+      </tr>
+
+    </table>
+
+  </body>
+
+</html>
