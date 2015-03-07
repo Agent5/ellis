@@ -1,4 +1,4 @@
-var wReader = angular.module('wReader', ['wReader.filters', 'wReader.services', 'wReader.directives', 'xeditable', 'ui.bootstrap'])
+var wReader = angular.module('wReader', ['wReader.filters', 'wReader.services', 'wReader.directives', 'xeditable', 'ui.bootstrap', 'truncate'])
 
     .run(function(editableOptions) {
       editableOptions.theme = 'bs3'; // bootstrap3 theme. Can be also 'bs2', 'default'
@@ -58,7 +58,7 @@ function AppController($scope, $http, items, scroll) {
     $http({
       method  : 'POST',
       // url     : 'https://docs.google.com/a/clearslide.com/forms/d/1Bgm73IeWPiVGnXCIUM-ARW2c8vpLKcuSEtBqTujS4Qc/formResponse',
-      url     : 'http://10.0.1.116:3000/db',
+      url     : 'http://10.0.1.116:3000/choices',
       // data    : $.param($scope.formData.fullName),  // pass in data as strings
       data    : $scope.items.selected,
       headers : { 'Content-Type': 'application/json' }
