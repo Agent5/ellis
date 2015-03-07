@@ -179,13 +179,13 @@
                       <a href="#" buttons="no" editable-text="items.selected.leadOwner" onaftersave="processForm()">{{items.selected.leadOwner || 'Enter lead owner'}}</a>
                     </td>
                     <td>
-                      <a href="#" buttons="no" editable-text="items.selected.leadOwner" onaftersave="processForm()">{{items.selected.leadOwner || 'Enter lead owner'}}</a>
+                      <a href="#" buttons="no" editable-text="items.selected.campaignName" onaftersave="processForm()">{{items.selected.campaignName || 'Enter campaign name'}}</a>
                     </td>
                     <td>
-                      <a href="#" buttons="no" editable-text="items.selected.leadOwner" onaftersave="processForm()">{{items.selected.leadOwner || 'Enter lead owner'}}</a>
+                      <a href="#" buttons="no" editable-text="items.selected.campaignStatus" onaftersave="processForm()">{{items.selected.campaignStatus || 'Enter campaign status'}}</a>
                     </td>
                     <td>
-                      <a href="#" buttons="no" editable-text="items.selected.leadSource" onaftersave="processForm()">{{items.selected.leadSource || 'Enter lead source'}}</a>
+                      <a href="#" buttons="no" editable-text="items.selected.notes" onaftersave="processForm()">{{items.selected.notes || 'Enter notes'}}</a>
                     </td>
                     <td>
                       <a href="#" buttons="no" editable-text="items.selected.accountMatched" onaftersave="processForm()">{{items.selected.accountMatched || 'Enter account matched'}}</a>
@@ -207,7 +207,7 @@
         </div> -->
         <div class="row">
           <h2 class="content-header">LinkedIn Info</h2>
-          <h4>Searched For: "{{items.selected.firstName}} {{items.selected.lastName}} {{items.selected.company}}" - ({{items.selected.liSearchResults.length}} Results)</h4>
+          <h4>Searched For: "{{items.selected.firstName}} {{items.selected.lastName}} {{items.selected.company}}" - {{items.selected.liSearchResults.length}} Result(s)</h4>
           <div class="wrapper">
             <table class="table table-striped table-hover table-responsive">
               <theader>
