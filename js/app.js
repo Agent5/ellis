@@ -1,4 +1,4 @@
-var wReader = angular.module('wReader', ['wReader.filters', 'wReader.services', 'wReader.directives', 'xeditable'])
+var wReader = angular.module('wReader', ['wReader.filters', 'wReader.services', 'wReader.directives', 'xeditable', 'ui.bootstrap'])
 
     .run(function(editableOptions) {
       editableOptions.theme = 'bs3'; // bootstrap3 theme. Can be also 'bs2', 'default'
@@ -9,6 +9,35 @@ function AppController($scope, $http, items, scroll) {
 
   $scope.items = items;
 
+  // ui accordion
+
+  $scope.oneAtATime = true;
+
+   $scope.groups = [
+     {
+       title: 'Dynamic Group Header - 1',
+       content: 'Dynamic Group Body - 1'
+     },
+     {
+       title: 'Dynamic Group Header - 2',
+       content: 'Dynamic Group Body - 2'
+     }
+   ];
+
+   // $scope.items = ['Item 1', 'Item 2', 'Item 3'];
+
+   $scope.addItem = function() {
+     var newItemNo = $scope.items.length + 1;
+     $scope.items.push('Item ' + newItemNo);
+   };
+
+   $scope.status = {
+     isFirstOpen: true,
+     isFirstDisabled: false
+   };
+
+   // ui accordion
+
   $scope.refresh = function() {
     items.getItemsFromServer();
   };
@@ -17,6 +46,12 @@ function AppController($scope, $http, items, scroll) {
     if (!scroll.pageDown()) {
       items.next();
     }
+  };
+
+  $scope.chooseClicked = function( chosen ){
+    items.selected.title = chosen;
+    $scope.processForm();
+
   };
 
   $scope.processForm = function() {

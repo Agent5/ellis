@@ -87,27 +87,70 @@
         <section class="summaries">
             <article ng-repeat="item in items.filtered | filter: search | orderBy: 'id'" id="{{item.id}}" ng-class="{read: item.read, active: item.selected}" class="well summary" ng-click="items.selectItem($index)">
 
-                <h3 class="pub-author">{{item.fullName}}</h4>
-          <h4 class="pub-title">{{item.title}}</h4>
-          <h4 class="pub-title">{{item.companyAccount}}</h4>
-          <div class="row-fluid">
-
-          </div>
-      </article>
-    </section>
+              <div class="row-fluid">
+                <h3 class="pub-author">
+              <span class="badge">{{$index + 1}}</span> 
+                  {{item.fullName}}</h4>
+                <h4>{{item.title || 'No title'}}</h4>
+                <h4>{{item.company || 'No company'}}</h4>
+              </div>
+          </article>
+        </section>
 
     <section class="entries">
       <article class="well entry" ng-class="{read: items.selected.read, active: items.selected.selected}" ng-hide="!items.selected">
-        <div>
-          <div class="row-fluid">
 
+        <div class="container-fluid">
+        <div class="row">
+          <!-- ACCORDION -->
+                <!-- <div>
+                  <p>
+                    <button class="btn btn-default btn-sm" ng-click="status.open = !status.open">Toggle last panel</button>
+                    <button class="btn btn-default btn-sm" ng-click="status.isFirstDisabled = ! status.isFirstDisabled">Enable / Disable first panel</button>
+                  </p>
 
+                  <label class="checkbox">
+                    <input type="checkbox" ng-model="oneAtATime">
+                    Open only one at a time
+                  </label>
+                  <accordion close-others="oneAtATime">
+                    <accordion-group heading="Static Header, initially expanded" is-open="status.isFirstOpen" is-disabled="status.isFirstDisabled">
+                      This content is straight in the template.
+                    </accordion-group>
+                    <accordion-group heading="{{group.title}}" ng-repeat="group in groups">
+                      {{group.content}}
+                    </accordion-group>
+                    <accordion-group heading="Dynamic Body Content">
+                      <p>The body of the accordion group grows to fit the contents</p>
+                        <button class="btn btn-default btn-sm" ng-click="addItem()">Add Item</button>
+                        <div ng-repeat="item in items">{{item}}</div>
+                    </accordion-group>
+                    <accordion-group is-open="status.open">
+                        <accordion-heading>
+                            I can have markup, too! <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
+                        </accordion-heading>
+                        This is just some content to illustrate fancy headings.
+                    </accordion-group>
+                  </accordion>
+                </div> -->
+                <!-- ACCORDION -->
+        </div>
+
+          <div class="row">
+          <h2 class="content-header">Lead Info</h2>
+            <div class="span4 actions">
+              <input type="checkbox" class="read" ng-model="items.selected.read">
+              <input type="checkbox" class="star" ng-model="items.selected.starred">
+              <a href="{{items.selected.item_link}}"><i class="icon-share"></i></a>
+            </div>
             <div class="wrapper">
                 <table class="table table-responsive form-group">
                   <theader>
                     <th>Lead Name</th>
                     <th>Title</th>
                     <th>Company</th>
+                    <th>Lead Source</th>
+                    <th>Created Date</th>
                   </theader>
                   <tr>
                     <td>
@@ -117,38 +160,52 @@
                       <h2><a href="#" buttons="no" editable-text="items.selected.title">{{items.selected.title}}</a></h2>
                     </td>
                     <td>
-                      <h2><a href="#" buttons="no" editable-text="items.selected.companyAccount">{{items.selected.companyAccount}}</a></h2>
+                      <h2><a href="#" buttons="no" editable-text="items.selected.company">{{items.selected.company || 'Enter company'}}</a></h2>
+                    </td>
+                    <td>
+                      <h2><a href="#" buttons="no" editable-text="items.selected.company">{{items.selected.company || 'Enter company'}}</a></h2>
+                    </td>
+                    <td>
+                      <h2><a href="#" buttons="no" editable-text="items.selected.company">{{items.selected.company || 'Enter company'}}</a></h2>
                     </td>
                   </tr>
                   <tr>
+                    <tr>
+                      <th>Lead Owner</th><th>Campaign</th><th>Campaign Status</th><th>Notes</th><th>Account Matched</th>
+                    </tr>
                     <td>
-                      <a href="#" buttons="no" editable-text="items.selected.email">{{items.selected.email}}</a>
+                      <a href="#" buttons="no" editable-text="items.selected.leadOwner">{{items.selected.leadOwner}}</a>
                     </td>
-                    <td><a href="#" buttons="no" editable-text="items.selected.leadSource">{{items.selected.leadSource}}</a></td>
-                    <td><a href="#" buttons="no" editable-text="items.selected.accountMatched">{{items.selected.accountMatched}}</a></td>
+                    <td>
+                      <a href="#" buttons="no" editable-text="items.selected.leadOwner">{{items.selected.leadOwner}}</a>
+                    </td>
+                    <td>
+                      <a href="#" buttons="no" editable-text="items.selected.leadOwner">{{items.selected.leadOwner}}</a>
+                    </td>
+                    <td>
+                      <a href="#" buttons="no" editable-text="items.selected.leadSource">{{items.selected.leadSource}}</a>
+                    </td>
+                    <td>
+                      <a href="#" buttons="no" editable-text="items.selected.accountMatched">{{items.selected.accountMatched}}</a>
+                    </td>
                   </tr>
                 </table>
             </div>
 
-            <div class="span8">{{items.selected.search_date | formattedDate}} - {{items.selected.pub_name}}</div>
-            <div class="span4 actions">
-              <input type="checkbox" class="read" ng-model="items.selected.read">
-              <input type="checkbox" class="star" ng-model="items.selected.starred">
-              <a href="{{items.selected.item_link}}"><i class="icon-share"></i></a>
-            </div>
           </div>
+           <!--  <div class="span8">{{items.selected.search_date | formattedDate}} - {{items.selected.pub_name}}</div> -->
+            
 
-          <hr />
-        </div>
-        <div>
-          <!-- <pre>
+          <!-- <hr /> -->
+        <!-- <div>
+          <pre>
             {{items.selected.companyAccount}}<br>
             {{items.selected.email}}
-          </pre> -->
-        </div>
-        <div>
-          <h2 class="content-header">:: LinkedIn Info ::</h2>
-          <h5>Searched For: {{items.selected.search_target}}</h5>
+          </pre>
+        </div> -->
+        <div class="row">
+          <h2 class="content-header">LinkedIn Info</h2>
+          <h5>Searched For: {{items.selected.firstName}} {{items.selected.lastName}} {{items.selected.company}}</h5>
           <div class="wrapper">
             <table class="table table-responsive">
               <theader>
@@ -161,9 +218,47 @@
                 <td>Select</td>
                 <td>View in LI</td>
               </theader>
-              <tr ng-repeat="item in items.selected.li_profile_pages">
+              <tr ng-repeat="item in items.selected.liSearchResults">
                 <td>
-                  <span class="badge">{{item.searchIndex + 1}}</span>
+                  <span class="badge">{{$index + 1}}</span>
+                </td>
+                <td>{{item.firstName}}</td>
+                <td>{{item.lastName}} <i class="icon-plus-sign"></i>
+                </td>
+                <td>{{item.currentTitle}} <i class="icon-plus-sign"></i>
+                </td>
+                <td>{{item.location}} <i class="icon-plus-sign"></i>
+                </td>
+                <td>{{item.industry}} <i class="icon-plus-sign"></i>
+                </td>
+                <td>
+                  <button class="btn large" ng-click = "chooseClicked(item.currentTitle)">Choose This Info</button>
+                </td>
+                <td>
+                  <a ng-href="{{item.link}}">LinkedIn Profile Link</a>
+                  </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="row">
+          <h2 class="content-header">SFDC Info</h2>
+          <h5>Searched For: {{items.selected.firstName}} {{items.selected.lastName}} {{items.selected.company}}</h5>
+          <div class="wrapper">
+            <table class="table table-responsive">
+              <theader>
+                <td>LI Result No.</td>
+                <td>First Name</td>
+                <td>Last Name</td>
+                <td>Title</td>
+                <td>Location</td>
+                <td>Industry</td>
+                <td>Select</td>
+                <td>View in LI</td>
+              </theader>
+              <tr ng-repeat="item in items.selected.liSearchResults">
+                <td>
+                  <span class="badge">{{$index + 1}}</span>
                 </td>
                 <td>{{item.firstName}}</td>
                 <td>{{item.lastName}} <i class="icon-plus-sign"></i>
@@ -177,24 +272,14 @@
                 <td>
                   <button class="btn large">Select This Info</button>
                 </td>
-                <td><a ng-href="{{item.link}}">LinkedIn Profile Link</a>
-                  <td>
+                <td>
+                  <a ng-href="{{item.link}}">LinkedIn Profile Link</a>
+                  </td>
               </tr>
             </table>
           </div>
         </div>
-        <div class="container cs-admin-search">
-          <h2 class="content-header">:: CS Admin Info ::</h2>
-          <p>Bacon ipsum dolor amet chuck alcatra shank, sausage cow short ribs pastrami pork chop bresaola jerky chicken ground round beef. Strip steak t-bone meatball kevin landjaeger spare ribs bacon pig beef ribs ground round swine pork chop corned beef
-            ribeye. Salami meatball tri-tip, sausage pork chop porchetta capicola hamburger. Cupim bacon leberkas swine tri-tip, ribeye biltong rump alcatra. Meatball shoulder boudin t-bone ribeye jowl chuck tri-tip doner prosciutto andouille tenderloin
-            ham pork. Kielbasa biltong sausage ribeye, landjaeger corned beef beef pork chop meatloaf shank sirloin flank jowl cupim. Short ribs jerky cupim meatloaf pork sirloin.</p>
-        </div>
-        <div class="container sfdc-search">
-          <h2 class="content-header">:: SFDC Search Info ::</h2>
-          <p>Bacon ipsum dolor amet chuck alcatra shank, sausage cow short ribs pastrami pork chop bresaola jerky chicken ground round beef. Strip steak t-bone meatball kevin landjaeger spare ribs bacon pig beef ribs ground round swine pork chop corned beef
-            ribeye. Salami meatball tri-tip, sausage pork chop porchetta capicola hamburger. Cupim bacon leberkas swine tri-tip, ribeye biltong rump alcatra. Meatball shoulder boudin t-bone ribeye jowl chuck tri-tip doner prosciutto andouille tenderloin
-            ham pork. Kielbasa biltong sausage ribeye, landjaeger corned beef beef pork chop meatloaf shank sirloin flank jowl cupim. Short ribs jerky cupim meatloaf pork sirloin.</p>
-        </div>
+
         </div>
       </article>
       <div class="nothingSelected" ng-show="!items.filtered.length || !items.selected">
@@ -268,6 +353,8 @@
                 <script src="js/services.js"></script>
                 <script src="js/directives.js"></script>
                 <script src="js/libs/xeditable.js"></script>
+                <script src="js/libs/ui-bootstrap-0.12.1.js"></script>
+                <script src="js/libs/ui-bootstrap-tpls-0.12.1.js"></script>
 
                 <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
        mathiasbynens.be/notes/async-analytics-snippet -->

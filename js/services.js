@@ -26,15 +26,16 @@ function Item(lead) {
     this.firstName = lead.firstName;
     this.lastName = lead.lastName;
     this.title = lead.title;
-    this.companyAccount = lead.companyAccount;
+    this.company = lead.company;
     this.leadSource = lead.leadSource;
-    this.street = lead.street;
-    this.email = lead.email;
+    // this.street = lead.street;
+    // this.email = lead.email;
     this.leadID = lead.leadID;
-    this.key = this.leadID;
+    this.key = this.id;
     this.leadStatus = lead.leadStatus;
-    this.accountMatched = lead.accountMatched;
+    // this.accountMatched = lead.accountMatched;
     this.fullName = this.firstName + ' ' + this.lastName;
+    this.liSearchResults = lead.liSearchResults;
   }
 }
 
