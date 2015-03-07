@@ -48,7 +48,7 @@
 
 
 
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
 
@@ -84,34 +84,8 @@
 
     <section class="mainContent">
 
-        <section class="controls no-select">
-            <div class="tControls">
-                <div class="top">
-                    <button ng-click="items.markAllRead()" class="btn" title="Mark all as read" alt="Mark all as read"><i class="glyphicon glyphicon-ok-circle"></i>
-                    </button>
-                </div>
-                <div class="middle">
-                    <button ng-click="items.prev()" class="btn" ng-disabled="!items.hasPrev()"><i class="glyphicon glyphicon-arrow-up"></i>
-                    </button>
-                    <button ng-click="items.toggleStar()" ng-disabled="!items.selected" class="btn">
-                        <i ng-class="{'glyphicon glyphicon-star': items.selected.starred, 'glyphicon glyphicon-star-empty': !items.selected.starred}"></i>
-                    </button>
-                    <button ng-click="items.toggleRead()" ng-disabled="!items.selected" class="btn">
-                        <i ng-class="{'glyphicon glyphicon-ok': items.selected.read, 'glyphicon glyphicon-ok': !items.selected.read}"></i>
-                    </button>
-                    <button ng-click="items.next()" class="btn" ng-disabled="!items.hasNext()"><i class="glyphicon glyphicon-arrow-down"></i>
-                    </button>
-                </div>
-                <div class="bottom">
-                    <button ng-click="items.refresh()" class="btn" title="Refresh feeds" alt="Refresh feeds">
-                        <i class="glyphicon glyphicon-refresh"></i>
-                    </button>
-                </div>
-            </div>
-        </section>
-
         <section class="summaries">
-            <article ng-repeat="item in items.filtered | filter: search | orderBy: 'parsed_num'" id="{{item.item_id}}" ng-class="{read: item.read, active: item.selected}" class="well summary" ng-click="items.selectItem($index)">
+            <article ng-repeat="item in items.filtered | filter: search | orderBy: 'id'" id="{{item.id}}" ng-class="{read: item.read, active: item.selected}" class="well summary" ng-click="items.selectItem($index)">
 
                 <h3 class="pub-author">{{item.fullName}}</h4>
           <h4 class="pub-title">{{item.title}}</h4>
@@ -130,18 +104,14 @@
 
             <div class="wrapper">
                 <table class="table table-responsive form-group">
-                  <!-- <theader>
-                    <td>Status</td>
-                    <td>Lead Name</td>
-                    <td>Title</td>
-                    <td>Company</td>
-                    <td>Address</td>
-                    <td>Lead Owner</td>
-                    <td>Date Created</td>
-                  </theader> -->
+                  <theader>
+                    <th>Lead Name</th>
+                    <th>Title</th>
+                    <th>Company</th>
+                  </theader>
                   <tr>
                     <td>
-                      <h2><a href="#" buttons="no" editable-text="items.selected.fullName">{{items.selected.fullName}}</a></h2>
+                      <h2><a href="#" buttons="no" editable-text="items.selected.fullName"  onaftersave="processForm()">{{items.selected.fullName}}</a></h2>
                     </td>
                     <td>
                       <h2><a href="#" buttons="no" editable-text="items.selected.title">{{items.selected.title}}</a></h2>
@@ -151,14 +121,8 @@
                     </td>
                   </tr>
                   <tr>
-                    <td><a href="#" buttons="no" editable-text="items.selected.email">{{items.selected.email}}</a>
-                    
-              <form ng-submit="processForm()">
-                      <input data-ng-model="items.selected.email" style="display:none"/>
-                      <button type="submit" class="btn btn-success btn-lg btn-block">
-                        <span class="glyphicon glyphicon-flash"></span> Submit!
-                      </button>
-              </form>
+                    <td>
+                      <a href="#" buttons="no" editable-text="items.selected.email">{{items.selected.email}}</a>
                     </td>
                     <td><a href="#" buttons="no" editable-text="items.selected.leadSource">{{items.selected.leadSource}}</a></td>
                     <td><a href="#" buttons="no" editable-text="items.selected.accountMatched">{{items.selected.accountMatched}}</a></td>
@@ -177,7 +141,10 @@
           <hr />
         </div>
         <div>
-          <pre>{{items.selected.companyAccount}}</pre>
+          <!-- <pre>
+            {{items.selected.companyAccount}}<br>
+            {{items.selected.email}}
+          </pre> -->
         </div>
         <div>
           <h2 class="content-header">:: LinkedIn Info ::</h2>

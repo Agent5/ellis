@@ -19,22 +19,23 @@ function AppController($scope, $http, items, scroll) {
     }
   };
 
-  $scope.formData = {};
-
   $scope.processForm = function() {
     $http({
       method  : 'POST',
-      url     : 'https://docs.google.com/a/clearslide.com/forms/d/1Bgm73IeWPiVGnXCIUM-ARW2c8vpLKcuSEtBqTujS4Qc/formResponse',
-      data    : $.param($scope.formData),  // pass in data as strings
-      headers : { 'Content-Type': 'application/x-www-form-urlencoded' }  // set the headers so angular passing info as form data (not request payload)
+      // url     : 'https://docs.google.com/a/clearslide.com/forms/d/1Bgm73IeWPiVGnXCIUM-ARW2c8vpLKcuSEtBqTujS4Qc/formResponse',
+      url     : 'http://10.0.1.116:3000/db',
+      // data    : $.param($scope.formData.fullName),  // pass in data as strings
+      data    : $scope.items.selected,
+      headers : { 'Content-Type': 'application/json' }
+      // headers : { 'Content-Type': 'application/x-www-form-urlencoded' }  // set the headers so angular passing info as form data (not request payload)
      })
       .success(function(data) {
-        console.log(data);
+        console.log(JSON.stringify(data, null, '    '));
 
         if (!data.success) {
           // if not successful, bind errors to error variables
-          $scope.errorName = data.errors.name;
-          $scope.errorSuperhero = data.errors.superheroAlias;
+          // $scope.errorEmail = data.errors.email;
+          // $scope.errorSuperhero = data.errors.superheroAlias;
         } else {
           // if successful, bind success message to message
           $scope.message = data.message;

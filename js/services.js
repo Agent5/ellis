@@ -109,14 +109,15 @@ services.factory('items', ['$http', 'store', 'filterFilter', function($http, sto
 
     getItemsFromServer: function() {
       // var feedURL = 'http://192.168.220.197:3000/db'; // work setup
-      var feedURL = 'http://10.0.1.10:3000/db'; // home setup
+      // var feedURL = 'http://10.0.1.10:3000/db'; // home work computer setup
+      var feedURL = 'http://10.0.1.116:3000/db'; // home setup
 
       var successCallback = function(data, status, headers, config) {
         items.all = [];
 
         // Iterate through the items and create a new JSON object for each item
         data.lead.forEach(function(lead) {
-          var item = new Item(lead, data.lead.sfdcUserID); //, getLink(data.feed.link, 'alternate'));
+          var item = new Item(lead, data.lead.id); //, getLink(data.feed.link, 'alternate'));
 
           // Try to add the item to the data controller, if it's successfully
           //  added, we get TRUE and add the item to the local data store,
