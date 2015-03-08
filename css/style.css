@@ -276,3 +276,7 @@ section.mainContent div {
 }
 
 .overflow p {color:#ccc;line-height:50px;padding:0 10px;margin:0;display:inline;}
+
+span.glyphicon-bigger {
+    font-size: 1.8em;
+}

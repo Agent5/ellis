@@ -48,7 +48,7 @@
 
 
 
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" ng-controller="NavBarController">
         <div class="container">
             <div class="navbar-header">
 
@@ -88,11 +88,11 @@
             <article ng-repeat="item in items.filtered | filter: search | orderBy: 'id'" id="{{item.id}}" ng-class="{read: item.read, active: item.selected}" class="well summary" ng-click="items.selectItem($index)">
 
               <div class="row-fluid">
-                <h3 class="pub-author">
-              <span class="badge">{{$index + 1}}</span> 
-                  {{item.fullName}}</h4>
-                <h4>{{item.title || 'No title'}}</h4>
-                <h4>{{item.company || 'No company'}}</h4>
+                
+              <!-- <span class="badge">{{$index + 1}}</span>  -->
+                  {{item.fullName}}<br>
+                {{item.title || 'No title'}}<br>
+                {{item.company || 'No company'}}
               </div>
           </article>
         </section>
@@ -103,7 +103,7 @@
         <div class="container-fluid">
 
           <!-- ACCORDION -->
-        <!-- <div class="row">
+       <!--  <div class="row">
                 <div>
                   <p>
                     <button class="btn btn-default btn-sm" ng-click="status.open = !status.open">Toggle last panel</button>
@@ -118,13 +118,10 @@
                     <accordion-group heading="Static Header, initially expanded" is-open="status.isFirstOpen" is-disabled="status.isFirstDisabled">
                       This content is straight in the template.
                     </accordion-group>
-                    <accordion-group heading="{{group.title}}" ng-repeat="group in groups">
-                      {{group.content}}
-                    </accordion-group>
                     <accordion-group heading="Dynamic Body Content">
                       <p>The body of the accordion group grows to fit the contents</p>
                         <button class="btn btn-default btn-sm" ng-click="addItem()">Add Item</button>
-                        <div ng-repeat="item in items">{{item}}</div>
+                        <div ng-repeat="item in items.selected">{{item}}</div>
                     </accordion-group>
                     <accordion-group is-open="status.open">
                         <accordion-heading>
@@ -156,19 +153,19 @@
                   </theader>
                   <tr>
                     <td>
-                      <h2><a href="#" buttons="no" editable-text="items.selected.firstName"  onaftersave="processForm()">{{items.selected.firstName || 'Enter first name'}}</a> <a href="#" buttons="no" editable-text="items.selected.lastName"  onaftersave="processForm()">{{items.selected.lastName || 'Enter last name'}}</a></h2>
+                      <a href="#" buttons="no" editable-text="items.selected.firstName"  onaftersave="processForm()">{{items.selected.firstName || 'Enter first name'}}</a> <a href="#" buttons="no" editable-text="items.selected.lastName"  onaftersave="processForm()">{{items.selected.lastName || 'Enter last name'}}</a>
                     </td>
                     <td>
-                      <h2><a href="#" buttons="no" editable-text="items.selected.title" onaftersave="processForm()">{{items.selected.title || 'Enter title'}}</a></h2>
+                      <a href="#" buttons="no" editable-text="items.selected.title" onaftersave="processForm()">{{items.selected.title || 'Enter title'}}</a>
                     </td>
                     <td>
-                      <h2><a href="#" buttons="no" editable-text="items.selected.company" onaftersave="processForm()">{{items.selected.company || 'Enter company'}}</a></h2>
+                      <a href="#" buttons="no" editable-text="items.selected.company" onaftersave="processForm()">{{items.selected.company || 'Enter company'}}</a>
                     </td>
                     <td>
-                      <h2><a href="#" buttons="no" editable-text="items.selected.leadSource" onaftersave="processForm()">{{items.selected.leadSource || 'Enter lead source'}}</a></h2>
+                      <a href="#" buttons="no" editable-text="items.selected.leadSource" onaftersave="processForm()">{{items.selected.leadSource || 'Enter lead source'}}</a>
                     </td>
                     <td>
-                      <h2><a href="#" buttons="no" editable-text="items.selected.createdDate" onaftersave="processForm()">{{items.selected.createdDate || 'Enter created date'}}</a></h2>
+                      <a href="#" buttons="no" editable-text="items.selected.createdDate" onaftersave="processForm()">{{items.selected.createdDate || 'Enter created date'}}</a>
                     </td>
                   </tr>
                   <tr>
@@ -230,21 +227,25 @@
                   <span class="badge">{{$index + 1}}</span>
                 </td>
                 <td>
-                  <button class="btn btn-default btn-md" ng-click = "chooseClicked(item.firstName)"><span class="glyphicon glyphicon-circle-arrow-up"></span></button>
+                  <button class="btn btn-default btn-md" ng-click = "chooseFirstName(item.firstName)">
+                    <span class="glyphicon glyphicon-circle-arrow-up"></span>
+                  </button>
                 </td>
                 <td>{{item.firstName | words:2}}</td>
                 <td>
-                  <button class="btn btn-default btn-md" ng-click = "chooseClicked(item.lastName)"><span class="glyphicon glyphicon-circle-arrow-up"></span></button>
+                  <button class="btn btn-default btn-md" ng-click = "chooseLastName(item.lastName)">
+                    <span class="glyphicon glyphicon-circle-arrow-up"></span>
+                  </button>
                 </td>
                 <td>{{item.lastName}} <i class="icon-plus-sign"></i>
                 </td>
                 <td>
-                  <button class="btn btn-default btn-md" ng-click = "chooseClicked(item.currentTitle)"><span class="glyphicon glyphicon-circle-arrow-up"></span></button>
+                  <button class="btn btn-default btn-md" ng-click = "chooseTitle(item.currentTitle)"><span class="glyphicon glyphicon-circle-arrow-up"></span></button>
                 </td>
                 <td> {{item.currentTitle | characters:50}}
                 </td>
                 <td>
-                  <button class="btn btn-default btn-md" ng-click = "chooseClicked(item.currentTitle)"><span class="glyphicon glyphicon-circle-arrow-up"></span></button>
+                  <button class="btn btn-default btn-md" ng-click = "chooseCompany(item.currentCompany)"><span class="glyphicon glyphicon-circle-arrow-up"></span></button>
                 </td>
                 <td>{{item.currentCompany}}
                 </td>
@@ -254,7 +255,7 @@
                   <button class="btn btn-default"><span class="glyphicon glyphicon-upload"></span></button>
                 </td>
                 <td>
-                  <span class="glyphicon glyphicon-share"></span>
+                  <a ng-href="http://www.linkedin.com{{item.link}}"><span class="glyphicon glyphicon-share"></span></a>
                 </td>
               </tr>
               </tbody>
@@ -373,7 +374,7 @@
                 <script src="js/services.js"></script>
                 <script src="js/directives.js"></script>
                 <script src="js/libs/xeditable.js"></script>
-                <script src="js/libs/ui-bootstrap-0.12.1.js"></script>
+                <!-- <script src="js/libs/ui-bootstrap-0.12.1.js"></script> -->
                 <script src="js/libs/ui-bootstrap-tpls-0.12.1.js"></script>
                 <script src="js/libs/truncate.js"></script>
 

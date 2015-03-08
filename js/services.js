@@ -28,6 +28,7 @@ function Item(lead) {
     this.title = lead.title;
     this.company = lead.company;
     this.leadSource = lead.leadSource;
+    this.campaignName = lead.campaignName;
     // this.street = lead.street;
     // this.email = lead.email;
     this.leadID = lead.leadID;

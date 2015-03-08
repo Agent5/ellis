@@ -48,10 +48,43 @@ function AppController($scope, $http, items, scroll) {
     }
   };
 
-  $scope.chooseClicked = function( chosen ){
+  $scope.chooseClicked = function( key_string, value_object ){
+    // var the_key = $parse(key_string);
+    // var the_value = value_object;
+    // the_key.assign($scope, the_value);
+
+    $parse(key_string).assign($scope.items.selected, value_object);
+    // items.selected.firstName = item.firstName;
+    $scope.apply();
+    $scope.processForm();
+
+  };
+
+  $scope.chooseTitle = function( chosen ){
     items.selected.title = chosen;
     $scope.processForm();
 
+  };
+
+  $scope.chooseFirstName = function( chosen ){
+    items.selected.firstName = chosen;
+    $scope.processForm();
+  };
+  $scope.chooseLastName = function( chosen ){
+    items.selected.lastName = chosen;
+    $scope.processForm();
+  };
+  $scope.chooseCompany = function( chosen ){
+    items.selected.company = chosen;
+    $scope.processForm();
+  };
+  $scope.chooseLeadSource = function( chosen ){
+    items.selected.leadSource = chosen;
+    $scope.processForm();
+  };
+  $scope.chooseCreatedDate = function( chosen ){
+    items.selected.createdDate = chosen;
+    $scope.processForm();
   };
 
   $scope.processForm = function() {
