@@ -1,4 +1,4 @@
-var wReader = angular.module('wReader', ['wReader.filters', 'wReader.services', 'wReader.directives', 'xeditable', 'ui.bootstrap', 'truncate'])
+var wReader = angular.module('wReader', ['wReader.filters', 'wReader.services', 'wReader.directives', 'xeditable', 'truncate'])
 
     .run(function(editableOptions) {
       editableOptions.theme = 'bs3'; // bootstrap3 theme. Can be also 'bs2', 'default'
@@ -61,6 +61,8 @@ function AppController($scope, $http, items, scroll) {
   };
 
   $scope.chooseTitle = function( chosen ){
+    // var atIndex = chosen.indexOf(" at ");
+    // var newTitle = chosen.substring(0, atIndex);
     items.selected.title = chosen;
     $scope.processForm();
 
@@ -75,7 +77,11 @@ function AppController($scope, $http, items, scroll) {
     $scope.processForm();
   };
   $scope.chooseCompany = function( chosen ){
-    items.selected.company = chosen;
+    // items.selected.company = chosen;
+
+    // var unChoppedLiTitle = chosen;
+    // var findAt = unChoppedLiTitle.indexOf(" at ") + 4;
+    items.selected.company = chosen // unChoppedLiTitle.substring(findAt);
     $scope.processForm();
   };
   $scope.chooseLeadSource = function( chosen ){
@@ -91,14 +97,15 @@ function AppController($scope, $http, items, scroll) {
     $http({
       method  : 'POST',
       // url     : 'https://docs.google.com/a/clearslide.com/forms/d/1Bgm73IeWPiVGnXCIUM-ARW2c8vpLKcuSEtBqTujS4Qc/formResponse',
-      url     : 'http://10.0.1.116:3000/choices',
+      // url     : 'http://10.0.1.116:3000/choices',
+      url     : 'http://10.0.1.122:3000/choices',
       // data    : $.param($scope.formData.fullName),  // pass in data as strings
       data    : $scope.items.selected,
       headers : { 'Content-Type': 'application/json' }
       // headers : { 'Content-Type': 'application/x-www-form-urlencoded' }  // set the headers so angular passing info as form data (not request payload)
      })
       .success(function(data) {
-        console.log(JSON.stringify(data, null, '    '));
+        console.log("Writing to database:\n" + JSON.stringify(data, null, '    '));
 
         if (!data.success) {
           // if not successful, bind errors to error variables
@@ -141,7 +148,37 @@ function NavBarController($scope, items) {
 
 NavBarController.$inject = ['$scope', 'items'];  // For JS compilers.
 
+// beg Accordion
+function AccordionCtrl($scope, items) {
 
+  $scope.oneAtATime = true;
+
+    $scope.groups = [
+      {
+        title: 'Dynamic Group Header - 1',
+        content: 'Dynamic Group Body - 1'
+      },
+      {
+        title: 'Dynamic Group Header - 2',
+        content: 'Dynamic Group Body - 2'
+      }
+    ];
+
+    $scope.accItems = ['Item 1', 'Item 2', 'Item 3'];
+
+    $scope.addItem = function() {
+      var newItemNo = $scope.accItems.length + 1;
+      $scope.accItems.push('Acc. Item ' + newItemNo);
+    };
+
+    $scope.status = {
+      isFirstOpen: true,
+      isFirstDisabled: false
+    };
+}
+AccordionCtrl.$inject = ['$scope'];  // For JS compilers.
+
+// end Accordion
 
 document.addEventListener('DOMContentLoaded', function(e) {
   //On mobile devices, hide the address bar

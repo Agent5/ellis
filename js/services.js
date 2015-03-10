@@ -16,19 +16,22 @@ function Item(lead) {
   this.read = false;
   this.starred = false;
   this.selected = false;
+  this.reviewed = false;
 
   // parse the lead from JSON
   if (lead) {
 
     this.id = lead.id;
     this.item_id = this.id;
-    this.leadOwner = lead.leadOwner;
+    this.leadSlashContactOwner = lead.leadSlashContactOwner;
     this.firstName = lead.firstName;
     this.lastName = lead.lastName;
     this.title = lead.title;
     this.company = lead.company;
     this.leadSource = lead.leadSource;
     this.campaignName = lead.campaignName;
+    this.memberStatus = lead.memberStatus;
+    this.leadContactOwner = lead.leadContactOwner;
     // this.street = lead.street;
     // this.email = lead.email;
     this.leadID = lead.leadID;
@@ -111,8 +114,9 @@ services.factory('items', ['$http', 'store', 'filterFilter', function($http, sto
 
     getItemsFromServer: function() {
       // var feedURL = 'http://192.168.220.197:3000/db'; // work setup
-      // var feedURL = 'http://10.0.1.10:3000/db'; // home work computer setup
-      var feedURL = 'http://10.0.1.116:3000/db'; // home setup
+      var feedURL = 'http://10.0.1.122:3000/db'; // home work computer setup
+      // var feedURL = 'http://192.168.220.188:3000/db'; // another work setup
+      // var feedURL = 'http://10.0.1.116:3000/db'; // home setup
 
       var successCallback = function(data, status, headers, config) {
         items.all = [];
