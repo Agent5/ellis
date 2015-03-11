@@ -6,7 +6,7 @@ directives.directive('wKeydown', function() {
     elm.bind('keydown', function(e) {
       switch (e.keyCode) {
 
-        case 57: // ` //72: // H
+        case 222: // ' //72: // H
           e.preventDefault();
           return scope.$apply(attr.wStar);
 

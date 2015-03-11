@@ -32,6 +32,7 @@ function Item(lead) {
     this.campaignName = lead.campaignName;
     this.memberStatus = lead.memberStatus;
     this.leadContactOwner = lead.leadContactOwner;
+    this.memberStatusupdatedate = lead.memberStatusupdatedate;
     // this.street = lead.street;
     // this.email = lead.email;
     this.leadID = lead.leadID;
@@ -40,6 +41,7 @@ function Item(lead) {
     // this.accountMatched = lead.accountMatched;
     this.fullName = this.firstName + ' ' + this.lastName;
     this.liSearchResults = lead.liSearchResults;
+    this.sfdcSearch = lead.sfdcSearch;
   }
 }
 
@@ -114,8 +116,8 @@ services.factory('items', ['$http', 'store', 'filterFilter', function($http, sto
 
     getItemsFromServer: function() {
       // var feedURL = 'http://192.168.220.197:3000/db'; // work setup
-      var feedURL = 'http://10.0.1.122:3000/db'; // home work computer setup
-      // var feedURL = 'http://192.168.220.188:3000/db'; // another work setup
+      // var feedURL = 'http://10.0.1.122:3000/db'; // home work computer setup
+      var feedURL = 'http://192.168.220.115:3000/db?leadContactOwner=Marketo%20Sync'; // another work setup
       // var feedURL = 'http://10.0.1.116:3000/db'; // home setup
 
       var successCallback = function(data, status, headers, config) {

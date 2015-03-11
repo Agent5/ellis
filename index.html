@@ -137,7 +137,10 @@
                     <!-- ACCORDION -->
 
                     <div class="row">
-                        <h4 class="content-header">Lead Info</h4>
+                        <!-- <h4 class="content-header">Lead Info</h4> -->
+                        <!-- <div>
+                            <pre>{{items.selected}}</pre>
+                        </div> -->
                         <div class="span4 actions">
                             <!-- <button class="btn btn-sm" ng-click="processForm(items.selected)"><span  span class="glyphicon glyphicon-cloud-upload"></span></button> -->
                             <input type="checkbox" class="read" ng-model="items.selected.read">
@@ -151,7 +154,7 @@
                                     <th>Title</th>
                                     <th>Company</th>
                                     <th>Lead Source</th>
-                                    <th>Created Date</th>
+                                    <th>Campaign Update</th>
                                 </theader>
                                 <tr>
                                     <td>
@@ -167,7 +170,7 @@
                                         <a href="#" buttons="no" editable-text="items.selected.leadSource" onaftersave="processForm()">{{items.selected.leadSource || 'Enter lead source'}}</a>
                                     </td>
                                     <td>
-                                        <a href="#" buttons="no" editable-text="items.selected.createdDate" onaftersave="processForm()">{{items.selected.createdDate || 'Enter created date'}}</a>
+                                        <a href="#" buttons="no" editable-text="items.selected.memberStatusupdatedate" onaftersave="processForm()">{{items.selected.memberStatusupdatedate || 'None'}}</a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -247,29 +250,90 @@
                         <h4 class="content-header">SFDC Info</h4>
                         <h5>Searched For: {{items.selected.firstName}} {{items.selected.lastName}} {{items.selected.company}}</h5>
                         <div class="wrapper">
+                            <h5>Accounts</h5>
                             <table class="table table-responsive">
                                 <theader>
-                                    <th>LI Result No.</th>
-                                    <th>First Name</th>
-                                    <th>Last Name</th>
-                                    <th>Title</th>
-                                    <th>Location</th>
-                                    <th>Industry</th>
+                                    <th>No.</th>
+                                    <th>Account Name</th>
+                                    <th>Account Owner</th>
+                                    <th>Primary State</th>
                                     <th></th>
                                     <th></th>
                                 </theader>
-                                <tr ng-repeat="item in items.selected.liSearchResults">
+                                <tr ng-repeat="item in items.selected.sfdcSearch.accountTbl">
                                     <td>
                                         <span class="badge">{{$index + 1}}</span>
                                     </td>
-                                    <td>{{item.firstName}}</td>
-                                    <td>{{item.lastName}} <i class="icon-plus-sign"></i>
+                                    <td>{{item.accountName}}</td>
+                                    <td>{{item.ownerFirstName}} {{item.ownerLastName}}</td>
+                                    <td>{{item.primaryState}}</td>
+                                    <td>
+                                        <button class="btn btn-default"><span class="glyphicon glyphicon-upload"></span>
+                                        </button>
                                     </td>
-                                    <td>{{item.title}} <i class="icon-plus-sign"></i>
+                                    <td>
+                                        <span class="glyphicon glyphicon-share"></span>
                                     </td>
-                                    <td>{{item.location}} <i class="icon-plus-sign"></i>
+                                </tr>
+                            </table>
+                            <h5>Leads</h5>
+                            <table class="table table-responsive">
+                                <theader>
+                                    <th>No.</th>
+                                    <th>First Name</th>
+                                    <th>Last Name</th>
+                                    <th>Title</th>
+                                    <th>Company</th>
+                                    <th>Email</th>
+                                    <th></th>
+                                    <th></th>
+                                </theader>
+                                <tr ng-repeat="item in items.selected.sfdcSearch.accountTbl">
+                                    <td>
+                                        <span class="badge">{{$index + 1}}</span>
                                     </td>
-                                    <td>{{item.industry}} <i class="icon-plus-sign"></i>
+                                    <td>{{item.accountName}}</td>
+                                    <td> <i class="icon-plus-sign"></i>
+                                    </td>
+                                    <td> <i class="icon-plus-sign"></i>
+                                    </td>
+                                    <td> <i class="icon-plus-sign"></i>
+                                    </td>
+                                    <td> <i class="icon-plus-sign"></i>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-default"><span class="glyphicon glyphicon-upload"></span>
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <span class="glyphicon glyphicon-share"></span>
+                                    </td>
+                                </tr>
+                            </table>
+                            <h5>Contacts</h5>
+                            <table class="table table-responsive">
+                                <theader>
+                                    <th>No.</th>
+                                    <th>First Name</th>
+                                    <th>Last Name</th>
+                                    <th>Title</th>
+                                    <th>Company</th>
+                                    <th>Email</th>
+                                    <th></th>
+                                    <th></th>
+                                </theader>
+                                <tr ng-repeat="item in items.selected.sfdcSearch.accountTbl">
+                                    <td>
+                                        <span class="badge">{{$index + 1}}</span>
+                                    </td>
+                                    <td>{{item.accountName}}</td>
+                                    <td> <i class="icon-plus-sign"></i>
+                                    </td>
+                                    <td> <i class="icon-plus-sign"></i>
+                                    </td>
+                                    <td> <i class="icon-plus-sign"></i>
+                                    </td>
+                                    <td> <i class="icon-plus-sign"></i>
                                     </td>
                                     <td>
                                         <button class="btn btn-default"><span class="glyphicon glyphicon-upload"></span>
